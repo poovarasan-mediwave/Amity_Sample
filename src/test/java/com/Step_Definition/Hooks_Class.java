@@ -7,8 +7,6 @@ import com.Single_Ton.Single_Ton_Design;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 
-
-
 public class Hooks_Class extends Base_Class {
 
 	public static Single_Ton_Design si = new Single_Ton_Design();
