@@ -50,6 +50,12 @@
 			<artifactId>ashot</artifactId>
 			<version>1.5.4</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/net.masterthought/cucumber-reporting -->
+		<dependency>
+			<groupId>net.masterthought</groupId>
+			<artifactId>cucumber-reporting</artifactId>
+			<version>5.7.2</version>
+		</dependency>
 
 
 		<!-- https://mvnrepository.com/artifact/tech.grasshopper/extentreports-cucumber6-adapter -->
