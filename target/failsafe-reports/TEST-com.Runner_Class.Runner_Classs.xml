@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="com.Runner_Class.Runner_Classs" time="430.082" tests="7" errors="3" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="com.Runner_Class.Runner_Classs" time="138.997" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.9\bin"/>
-    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\Mediwave Digital\AppData\Local\Temp\surefire1668612831567047882 2023-02-02T16-18-49_264-jvmRun1 surefire12467392834369685625tmp surefire_03151902370141475964tmp"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\Mediwave Digital\AppData\Local\Temp\surefire8004254656665086391 2023-02-02T17-16-08_436-jvmRun1 surefire4385230947071927890tmp surefire_09355977182033411140tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Mediwave Digital\eclipse-workspace\Amity_sample\target\test-classes;C:\Users\Mediwave Digital\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Mediwave Digital\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Mediwave Digital\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Mediwave Digital\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Mediwave Digital\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Mediwave Digital\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Mediwave Digital\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Mediwave Digital\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Mediwave Digital\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Mediwave Digital\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Mediwave Digital\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Mediwave Digital\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Mediwave Digital\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Mediwave Digital\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Mediwave Digital\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Mediwave Digital\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Mediwave Digital\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Mediwave Digital\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Mediwave Digital\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Mediwave Digital\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Mediwave Digital\.m2\repository\io\github\bonigarcia\webdrivermanager\5.0.3\webdrivermanager-5.0.3.jar;C:\Users\Mediwave Digital\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\Mediwave Digital\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;C:\Users\Mediwave Digital\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\Mediwave Digital\.m2\repository\com\github\docker-java\docker-java\3.2.12\docker-java-3.2.12.jar;C:\Users\Mediwave Digital\.m2\repository\com\github\docker-java\docker-java-core\3.2.12\docker-java-core-3.2.12.jar;C:\Users\Mediwave Digital\.m2\repository\com\github\docker-java\docker-java-api\3.2.12\docker-java-api-3.2.12.jar;C:\Users\Mediwave Digital\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Mediwave Digital\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Mediwave Digital\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Mediwave Digital\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Mediwave Digital\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Mediwave Digital\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\Mediwave Digital\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\Mediwave Digital\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Mediwave Digital\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.12\docker-java-transport-httpclient5-3.2.12.jar;C:\Users\Mediwave Digital\.m2\repository\com\github\docker-java\docker-java-transport\3.2.12\docker-java-transport-3.2.12.jar;C:\Users\Mediwave Digital\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\Mediwave Digital\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\Mediwave Digital\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Mediwave Digital\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\Mediwave Digital\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Mediwave Digital\.m2\repository\io\cucumber\cucumber-java\6.10.3\cucumber-java-6.10.3.jar;C:\Users\Mediwave Digital\.m2\repository\io\cucumber\cucumber-core\6.10.3\cucumber-core-6.10.3.jar;C:\Users\Mediwave Digital\.m2\repository\io\cucumber\cucumber-gherkin\6.10.3\cucumber-gherkin-6.10.3.jar;C:\Users\Mediwave Digital\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.10.3\cucumber-gherkin-messages-6.10.3.jar;C:\Users\Mediwave Digital\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\Mediwave Digital\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\Mediwave Digital\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\Mediwave Digital\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\Mediwave Digital\.m2\repository\io\cucumber\cucumber-plugin\6.10.3\cucumber-plugin-6.10.3.jar;C:\Users\Mediwave Digital\.m2\repository\io\cucumber\docstring\6.10.3\docstring-6.10.3.jar;C:\Users\Mediwave Digital\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\Mediwave Digital\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\Mediwave Digital\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\Mediwave Digital\.m2\repository\io\cucumber\cucumber-junit\6.10.3\cucumber-junit-6.10.3.jar;C:\Users\Mediwave Digital\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Mediwave Digital\.m2\repository\ru\yandex\qatools\ashot\ashot\1.5.4\ashot-1.5.4.jar;C:\Users\Mediwave Digital\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\Mediwave Digital\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Mediwave Digital\.m2\repository\tech\grasshopper\extentreports-cucumber6-adapter\2.9.0\extentreports-cucumber6-adapter-2.9.0.jar;C:\Users\Mediwave Digital\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Mediwave Digital\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Mediwave Digital\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Mediwave Digital\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Mediwave Digital\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\Mediwave Digital\.m2\repository\tech\grasshopper\extent-pdf-report\1.7.4\extent-pdf-report-1.7.4.jar;C:\Users\Mediwave Digital\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.2.4\cucumber-pdf-report-2.2.4.jar;C:\Users\Mediwave Digital\.m2\repository\org\apache\pdfbox\pdfbox\2.0.22\pdfbox-2.0.22.jar;C:\Users\Mediwave Digital\.m2\repository\org\apache\pdfbox\fontbox\2.0.22\fontbox-2.0.22.jar;C:\Users\Mediwave Digital\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\Mediwave Digital\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\Mediwave Digital\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\Mediwave Digital\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\Mediwave Digital\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\Mediwave Digital\.m2\repository\tech\grasshopper\table-layout\1.2.0\table-layout-1.2.0.jar;C:\Users\Mediwave Digital\.m2\repository\com\aventstack\klov-reporter\5.0.9\klov-reporter-5.0.9.jar;C:\Users\Mediwave Digital\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\Mediwave Digital\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Mediwave Digital\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Mediwave Digital\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Mediwave Digital\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Mediwave Digital\.m2\repository\tech\grasshopper\htmlextentreporter\1.0.0\htmlextentreporter-1.0.0.jar;C:\Users\Mediwave Digital\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Mediwave Digital\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Mediwave Digital\.m2\repository\org\apache\maven\surefire\surefire-junit47\3.0.0-M5\surefire-junit47-3.0.0-M5.jar;C:\Users\Mediwave Digital\.m2\repository\org\apache\maven\surefire\common-junit48\3.0.0-M5\common-junit48-3.0.0-M5.jar;C:\Users\Mediwave Digital\.m2\repository\org\apache\maven\surefire\common-junit4\3.0.0-M5\common-junit4-3.0.0-M5.jar;C:\Users\Mediwave Digital\.m2\repository\org\apache\maven\surefire\common-junit3\3.0.0-M5\common-junit3-3.0.0-M5.jar;C:\Users\Mediwave Digital\.m2\repository\org\apache\maven\surefire\common-java5\3.0.0-M5\common-java5-3.0.0-M5.jar;C:\Users\Mediwave Digital\.m2\repository\org\apache\maven\surefire\surefire-grouper\3.0.0-M5\surefire-grouper-3.0.0-M5.jar;C:\Users\Mediwave Digital\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M5\surefire-api-3.0.0-M5.jar;C:\Users\Mediwave Digital\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M5\surefire-logger-api-3.0.0-M5.jar;C:\Users\Mediwave Digital\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M4\surefire-shared-utils-3.0.0-M4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -61,125 +61,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="This is Superadmin credentials in that create systemadmin user" classname="This is Resources create feature" time="63.344">
-    <system-out><![CDATA[
-Scenario: This is Superadmin credentials in that create systemadmin user    # src/test/resources/Feature_File/1Super_Admin.feature:3
-  Then User enters valid "<emailaddress>" in Emailaddress field super admin # com.Step_Definition.Super_admin_step.user_enters_valid_in_emailaddress_field_super_admin(java.lang.String)
-  Then user enter valid "<password>" in password field super admin          # com.Step_Definition.Super_admin_step.user_enter_valid_in_password_field_super_admin(java.lang.String)
-Login successfull
-  And user clicks Login button in super admin                               # com.Step_Definition.Super_admin_step.user_clicks_login_button_in_super_admin()
-  When user clicks on Add System Admin button                               # com.Step_Definition.Super_admin_step.user_clicks_on_add_system_admin_button()
-  Then user enters system admin Username                                    # com.Step_Definition.Super_admin_step.user_enters_system_admin_username()
-  Then user enters system admin Emailaddress                                # com.Step_Definition.Super_admin_step.user_enters_system_admin_emailaddress()
-Systemadmin created successfully
-  And user clicks Create System admin button                                # com.Step_Definition.Super_admin_step.user_clicks_create_system_admin_button()
-  And user logout super admin credentials                                   # com.Step_Definition.Super_admin_step.user_logout_super_admin_credentials()
-]]></system-out>
-    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 11259
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Feb 02, 2023 4:18:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="Systemadmin credentials deactivate and activate" classname="This is Resources create feature" time="61.906">
-    <system-out><![CDATA[
-@Super_Admin1
-Scenario: Systemadmin credentials deactivate and activate                           # src/test/resources/Feature_File/1Super_Admin.feature:14
-  When user enter the Email Address in text field                                   # com.Step_Definition.Super_admin_step.user_enter_the_email_address_in_text_field()
-  And user enter the Password in text field                                         # com.Step_Definition.Super_admin_step.user_enter_the_password_in_text_field()
-  Then user click the Login Button and it navigates to Trust management             # com.Step_Definition.Super_admin_step.user_click_the_login_button_and_it_navigates_to_trust_management()
-  When user click the deactivate button and confirm pop up occurs                   # com.Step_Definition.Super_admin_step.user_click_the_deactivate_button_and_confirm_pop_up_occurs()
-  When user click the yes button and success message pops up                        # com.Step_Definition.Super_admin_step.user_click_the_yes_button_and_success_message_pops_up()
-  And user click the current resources list button and take screenshot              # com.Step_Definition.Super_admin_step.user_click_the_current_resources_list_button_and_take_screenshot()
-  And user click the Trust management button and navigates to trust management page # com.Step_Definition.Super_admin_step.user_click_the_trust_management_button_and_navigates_to_trust_management_page()
-  And user click the activate button and confirm pop up occurs                      # com.Step_Definition.Super_admin_step.user_click_the_activate_button_and_confirm_pop_up_occurs()
-  And user click Yes Button and success message pop up                              # com.Step_Definition.Super_admin_step.user_click_yes_button_and_success_message_pop_up()
-  And user click the Current resources List button and Take screenshots             # com.Step_Definition.Super_admin_step.user_click_the_current_resources_list_button_and_take_screenshots()
-  And user logout trust admin credentials                                           # com.Step_Definition.Super_admin_step.user_logout_trust_admin_credentials()
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 44016
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Feb 02, 2023 4:19:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="Trustadmin Login" classname="Trustadmin login" time="66.064">
-    <system-out><![CDATA[
-@trust
-Scenario: Trustadmin Login                                                        # src/test/resources/Feature_File/2Trust.feature:4
-  When user enter the email address in user field                                 # com.Step_Definition.Trust_admin_step.user_enter_the_email_address_in_user_field()
-  And user enter the password in password field                                   # com.Step_Definition.Trust_admin_step.user_enter_the_password_in_password_field()
-  And user click the login Button and it navigates to current resource list page  # com.Step_Definition.Trust_admin_step.user_click_the_login_button_and_it_navigates_to_current_resource_list_page()
-  When user click the usermanagement button and naviagtes to user management page # com.Step_Definition.Trust_admin_step.user_click_the_usermanagement_button_and_naviagtes_to_user_management_page()
-  When user click add user button and add a new user popups                       # com.Step_Definition.Trust_admin_step.user_click_add_user_button_and_add_a_new_user_popups()
-  And user enter the name and email address and click the creator button          # com.Step_Definition.Trust_admin_step.user_enter_the_name_and_email_address_and_click_the_creator_button()
-  And user clicks the create user button and success message pops up              # com.Step_Definition.Trust_admin_step.user_clicks_the_create_user_button_and_success_message_pops_up()
-  And user click the Add user button and add a new User popups                    # com.Step_Definition.Trust_admin_step.user_click_the_add_user_button_and_add_a_new_user_popups()
-  And user enter the Name and Email address and Click the approver button         # com.Step_Definition.Trust_admin_step.user_enter_the_name_and_email_address_and_click_the_approver_button()
-  And user click the create User button and Success message pops up               # com.Step_Definition.Trust_admin_step.user_click_the_create_user_button_and_success_message_pops_up()
-  Then user click the logout button and naviagtes to login page                   # com.Step_Definition.Trust_admin_step.user_click_the_logout_button_and_naviagtes_to_login_page()
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 20208
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Feb 02, 2023 4:21:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="Creator create and approver approve and cancel" classname="Test the Approver cancel flow" time="100.715">
-    <system-out><![CDATA[
-@cancel
-Scenario: Creator create and approver approve and cancel                                      # src/test/resources/Feature_File/3cancel.feature:4
-  When user enter the cretor username "<CreatorUser>" and creatorpassword "<CreatorPassword>" # com.Step_Definition.Cancel_Step.user_enter_the_cretor_username_and_creatorpassword(java.lang.String,java.lang.String)
-Content creator login successfully
-  And user click the Login button in creator user                                             # com.Step_Definition.Cancel_Step.user_click_the_login_button_in_creator_user()
-User is on Resources page
-  Then user navigate to resource page and user click the create new resource option           # com.Step_Definition.Cancel_Step.user_navigate_to_resource_page_and_user_click_the_create_new_resource_option()
-  And user should select the article in resource type form                                    # com.Step_Definition.Cancel_Step.user_should_select_the_article_in_resource_type_form()
-  And user enter the resource titles and then user should select the topics                   # com.Step_Definition.Cancel_Step.user_enter_the_resource_titles_and_then_user_should_select_the_topics()
-  And user should select ageGroups                                                            # com.Step_Definition.Cancel_Step.user_should_select_age_groups()
-  And user add the content links and click the save button                                    # com.Step_Definition.Cancel_Step.user_add_the_content_links_and_click_the_save_button()
-  And user enter tag and click the list of current tags                                       # com.Step_Definition.Cancel_Step.user_enter_tag_and_click_the_list_of_current_tags()
-  And user should select the approver list and click the submit for approval button           # com.Step_Definition.Cancel_Step.user_should_select_the_approver_list_and_click_the_submit_for_approval_button()
-  And user take screenshot and click the profile option                                       # com.Step_Definition.Cancel_Step.user_take_screenshot_and_click_the_profile_option()
-  And user click the logout option in creator                                                 # com.Step_Definition.Cancel_Step.user_click_the_logout_option_in_creator()
-  When user Enter the Email Address in User text box                                          # com.Step_Definition.Cancel_Step.user_Enter_the_Email_Address_in_User_text_box()
-  And user Enter the Password in password text box                                            # com.Step_Definition.Cancel_Step.user_Enter_the_Password_in_password_text_box()
-  Then user Click the Login Button and It Navigates to current resource list page             # com.Step_Definition.Cancel_Step.user_Click_the_Login_Button_and_It_Navigates_to_current_resource_list_page()
-  And user click the my notification button in dashboard and navigates to my notifiaction     # com.Step_Definition.Cancel_Step.user_click_the_my_notification_button_in_dashboard_and_navigates_to_my_notifiaction()
-  And user click the recently added notification button                                       # com.Step_Definition.Cancel_Step.user_click_the_recently_added_notification_button()
-  And user click the approve button and success message pops up                               # com.Step_Definition.Cancel_Step.user_click_the_approve_button_and_success_message_pops_up()
-  And user click the approved notification button and navigates to cancel approve page        # com.Step_Definition.Cancel_Step.user_click_the_approved_notification_button_and_navigates_to_cancel_approve_page()
-  And user click the cancel approve button and select okay button                             # com.Step_Definition.Cancel_Step.user_click_the_cancel_approve_button_and_select_okay_button()
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 1575
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Feb 02, 2023 4:22:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="Test the Creator create resources insert image and approver approve, creator publish and unpublish" classname="Image insert and approver approve" time="32.062">
-    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;react-select-2-placeholder&apos;]/parent::div/parent::div&quot;}&#10;  (Session info: chrome=109.0.5414.120)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;POOVARASAN-LAPT&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\MEDIWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55751}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d143a0f775867374d703ec85affd5af3&#10;*** Element info: {Using=xpath, value=//div[@id=&apos;react-select-2-placeholder&apos;]/parent::div/parent::div}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='react-select-2-placeholder']/parent::div/parent::div"}
-  (Session info: chrome=109.0.5414.120)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'POOVARASAN-LAPT', ip: '192.168.0.233', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\MEDIWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55751}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d143a0f775867374d703ec85affd5af3
-*** Element info: {Using=xpath, value=//div[@id='react-select-2-placeholder']/parent::div/parent::div}
-]]></error>
+  <testcase name="Test the Creator create resources insert image and approver approve, creator publish and unpublish" classname="Image insert and approver approve" time="134.519">
     <system-out><![CDATA[
 Scenario: Test the Creator create resources insert image and approver approve, creator publish and unpublish                 # src/test/resources/Feature_File/Imageinsert_approve.feature:3
   When user enter the CUser "<CreatorUser>" and CPassword "<CreatorPassword>"                                                # com.Step_Definition.Resource_Page_Step.user_enter_the_c_user_and_c_password(java.lang.String,java.lang.String)
@@ -188,40 +70,9 @@ Content creator login successfully
 User is on Resources page
   Then user should be on resource page and click the create new resource option                                              # com.Step_Definition.Resource_Page_Step.user_should_be_on_resource_page_and_click_the_create_new_resource_option()
   And user select the video in Resources Type                                                                                # com.Step_Definition.Resource_Page_Step.user_select_the_video_in_Resources_Type()
-      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='react-select-2-placeholder']/parent::div/parent::div"}
-  (Session info: chrome=109.0.5414.120)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'POOVARASAN-LAPT', ip: '192.168.0.233', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\MEDIWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55751}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d143a0f775867374d703ec85affd5af3
-*** Element info: {Using=xpath, value=//div[@id='react-select-2-placeholder']/parent::div/parent::div}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy21.click(Unknown Source)
-	at Amity.sample@0.0.1-SNAPSHOT/com.Lib_Globals.Base_Class.btnClick(Base_Class.java:69)
-	at Amity.sample@0.0.1-SNAPSHOT/com.Step_Definition.Resource_Page_Step.user_select_the_video_in_Resources_Type(Resource_Page_Step.java:444)
-	at âœ½.user select the video in Resources Type(file:///C:/Users/Mediwave%20Digital/eclipse-workspace/Amity_sample/src/test/resources/Feature_File/Imageinsert_approve.feature:7)
-
   And user should enter the resource title and user should select the Topic                                                  # com.Step_Definition.Resource_Page_Step.user_should_enter_the_resource_title_and_user_should_select_the_Topic()
   And user select ageGroup                                                                                                   # com.Step_Definition.Resource_Page_Step.user_select_ageGroup()
   And user enter video caption in image "<CaptionImage>" and user click the video source button                              # com.Step_Definition.Resource_Page_Step.user_enter_video_caption_in_image_and_user_click_the_video_source_button(java.lang.String)
-  And user insert the image page in video content option                                                                     # com.Step_Definition.Resource_Page_Step.user_insert_the_image_page_in_video_content_option()
   And user enter the tags                                                                                                    # com.Step_Definition.Resource_Page_Step.user_enter_the_tags()
   And user should select the approvers and also click the submit for approval button                                         # com.Step_Definition.Resource_Page_Step.user_should_select_the_approvers_and_also_click_the_submit_for_approval_button()
   And user click the profile option and then user click the logout button in creator                                         # com.Step_Definition.Resource_Page_Step.user_click_the_profile_option_and_then_user_click_the_logout_button_in_creator()
@@ -236,157 +87,14 @@ Session ID: d143a0f775867374d703ec85affd5af3
   And user should click the Mynotification option and user search the already create contentor name and click the newest one # com.Step_Definition.Resource_Page_Step.user_should_click_the_Mynotification_option_and_user_search_the_already_create_contentor_name_and_click_the_newest_one()
   And user should take screenshot for present creator                                                                        # com.Step_Definition.Resource_Page_Step.user_should_take_screenshot_for_present_creator()
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 48509
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 15050
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Feb 02, 2023 4:23:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="Test the Creator create resources and Approver gives error message" classname="Approver give flag for review flow" time="38.629">
-    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;react-select-2-placeholder&apos;]/parent::div/parent::div&quot;}&#10;  (Session info: chrome=109.0.5414.120)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;POOVARASAN-LAPT&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\MEDIWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 7213d254aa8cded39e87d613f03b9028&#10;*** Element info: {Using=xpath, value=//div[@id=&apos;react-select-2-placeholder&apos;]/parent::div/parent::div}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='react-select-2-placeholder']/parent::div/parent::div"}
-  (Session info: chrome=109.0.5414.120)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'POOVARASAN-LAPT', ip: '192.168.0.233', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\MEDIWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7213d254aa8cded39e87d613f03b9028
-*** Element info: {Using=xpath, value=//div[@id='react-select-2-placeholder']/parent::div/parent::div}
-]]></error>
-    <system-out><![CDATA[
-Scenario: Test the Creator create resources and Approver gives error message                       # src/test/resources/Feature_File/Not_Approve.feature:3
-  When user enter the "<CreatorUser>" and "<CreatorPassword>"                                      # com.Step_Definition.Resource_Page_Step.user_enter_the_and(java.lang.String,java.lang.String)
-Content creator login successfully
-  And user click the Login button in creator crendentials                                          # com.Step_Definition.Resource_Page_Step.user_click_the_Login_button_in_creator_crendentials()
-User is on Resources page
-  Then user should navigate to resource page and user click the create new resource option         # com.Step_Definition.Resource_Page_Step.user_should_navigate_to_resource_page_and_user_click_the_create_new_resource_option()
-  And user should select the article in resource type                                              # com.Step_Definition.Resource_Page_Step.user_should_select_the_article_in_resource_type()
-      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='react-select-2-placeholder']/parent::div/parent::div"}
-  (Session info: chrome=109.0.5414.120)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'POOVARASAN-LAPT', ip: '192.168.0.233', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\MEDIWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7213d254aa8cded39e87d613f03b9028
-*** Element info: {Using=xpath, value=//div[@id='react-select-2-placeholder']/parent::div/parent::div}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy21.click(Unknown Source)
-	at Amity.sample@0.0.1-SNAPSHOT/com.Lib_Globals.Base_Class.btnClick(Base_Class.java:69)
-	at Amity.sample@0.0.1-SNAPSHOT/com.Step_Definition.Resource_Page_Step.user_should_select_the_article_in_resource_type(Resource_Page_Step.java:49)
-	at âœ½.user should select the article in resource type(file:///C:/Users/Mediwave%20Digital/eclipse-workspace/Amity_sample/src/test/resources/Feature_File/Not_Approve.feature:7)
-
-  And user enter the resource title and then user should select the topic                          # com.Step_Definition.Resource_Page_Step.user_enter_the_resource_title_and_then_user_should_select_the_topic()
-  And user should select the ageGroup                                                              # com.Step_Definition.Resource_Page_Step.user_should_select_the_ageGroup()
-  And user add the content link and then click the save button                                     # com.Step_Definition.Resource_Page_Step.user_add_the_content_link_and_then_click_the_save_button()
-  And user enter tags and then click the list of current tags                                      # com.Step_Definition.Resource_Page_Step.user_enter_tags_and_then_click_the_list_of_current_tags()
-  And user should select the approvers list and then click the submit for approval button          # com.Step_Definition.Resource_Page_Step.user_should_select_the_approvers_list_and_then_click_the_submit_for_approval_button()
-  And user take screenshot and then click the profile option                                       # com.Step_Definition.Resource_Page_Step.user_take_screenshot_and_then_click_the_profile_option()
-  And user click the logout option in creator crendentials                                         # com.Step_Definition.Resource_Page_Step.user_click_the_logout_option_in_creator_crendentials()
-  And user should enters the ApprovaerEmail "<ApproverUser>" and ApproverPassword"<ApproverPass>"  # com.Step_Definition.Resource_Page_Step.user_should_enters_the_ApprovaerEmail_and_ApproverPassword(java.lang.String,java.lang.String)
-  And user click the Login button and then click the my Notification option                        # com.Step_Definition.Resource_Page_Step.user_click_the_Login_button_and_then_click_the_my_Notification_option()
-  And user click the newly added resources name                                                    # com.Step_Definition.Resource_Page_Step.user_click_the_newly_added_resources_name()
-  And user click the flag for review button and then enter notes after click the submit button     # com.Step_Definition.Resource_Page_Step.user_click_the_flag_for_review_button_and_then_enter_notes_after_click_the_submit_button()
-  And user should take screenshot and then click the profile option                                # com.Step_Definition.Resource_Page_Step.user_should_take_screenshot_and_then_click_the_profile_option()
-  And user click the logout option in approver credentials                                         # com.Step_Definition.Resource_Page_Step.user_click_the_logout_option_in_approver_credentials()
-  When user enter the "<CreatorUser>" and "<CreatorPassword>" and then user click the Login button # com.Step_Definition.Resource_Page_Step.user_enter_the_and_and_then_user_click_the_Login_button(java.lang.String,java.lang.String)
-  And user click the my notification button in creator login and then user take screenshot         # com.Step_Definition.Resource_Page_Step.user_click_the_my_notification_button_in_creator_login_and_then_user_take_screenshot()
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 6298
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Feb 02, 2023 4:24:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="Test the Creator create resources and Approver approve and then publish" classname="Approver approve and creator publish and unpublish flow" time="61.457">
-    <error message="element click intercepted: Element is not clickable at point (501, 931)&#10;  (Session info: chrome=109.0.5414.120)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;POOVARASAN-LAPT&apos;, ip: &apos;192.168.0.233&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\MEDIWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55830}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 2b16eca71232a025cfb3a01c5eae19c5" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element is not clickable at point (501, 931)
-  (Session info: chrome=109.0.5414.120)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'POOVARASAN-LAPT', ip: '192.168.0.233', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\MEDIWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55830}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2b16eca71232a025cfb3a01c5eae19c5
-]]></error>
-    <system-out><![CDATA[
-Scenario: Test the Creator create resources and Approver approve and then publish                                               # src/test/resources/Feature_File/Publish_unpublish.feature:3
-  When user enter CCusername "<CreatorUser>" and CCpassword "<CreatorPassword>"                                                 # com.Step_Definition.Resource_Page_Step.user_enter_c_cusername_and_c_cpassword(java.lang.String,java.lang.String)
-Content creator login successfully
-  And Click login for Content creator credentials                                                                               # com.Step_Definition.Resource_Page_Step.click_login_for_content_creator_credentials()
-User is on Resources page
-  Then user navigate resource page and click the create new resource option                                                     # com.Step_Definition.Resource_Page_Step.user_navigate_resource_page_and_click_the_create_new_resource_option()
-  And user should  select the video in Resources Type                                                                           # com.Step_Definition.Resource_Page_Step.user_should_select_the_video_in_Resources_Type()
-      org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (501, 931)
-  (Session info: chrome=109.0.5414.120)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'POOVARASAN-LAPT', ip: '192.168.0.233', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\MEDIWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55830}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2b16eca71232a025cfb3a01c5eae19c5
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy21.click(Unknown Source)
-	at Amity.sample@0.0.1-SNAPSHOT/com.Lib_Globals.Base_Class.btnClick(Base_Class.java:69)
-	at Amity.sample@0.0.1-SNAPSHOT/com.Step_Definition.Resource_Page_Step.user_should_select_the_video_in_Resources_Type(Resource_Page_Step.java:225)
-	at âœ½.user should  select the video in Resources Type(file:///C:/Users/Mediwave%20Digital/eclipse-workspace/Amity_sample/src/test/resources/Feature_File/Publish_unpublish.feature:7)
-
-  And user should  enter the resource title and then user should select the topic                                               # com.Step_Definition.Resource_Page_Step.user_should_enter_the_resource_title_and_then_user_should_select_the_topic()
-  And user select the ageGroup                                                                                                  # com.Step_Definition.Resource_Page_Step.user_select_the_ageGroup()
-  And user enter the video caption "<caption>" and then user click the video source                                             # com.Step_Definition.Resource_Page_Step.user_enter_the_video_caption_and_then_user_click_the_video_source(java.lang.String)
-  And user add the  video content link in creator page and then click the save button                                           # com.Step_Definition.Resource_Page_Step.user_add_the_video_content_link_in_creator_page_and_then_click_the_save_button()
-  And user enter tags and then click the list of current tags in that click add tag button                                      # com.Step_Definition.Resource_Page_Step.user_enter_tags_and_then_click_the_list_of_current_tags_in_that_click_add_tag_button()
-  And user select the approvers list and then click the submit for approval button                                              # com.Step_Definition.Resource_Page_Step.user_select_the_approvers_list_and_then_click_the_submit_for_approval_button()
-  And user take screenshot and then click profile option                                                                        # com.Step_Definition.Resource_Page_Step.user_take_screenshot_and_then_click_profile_option()
-  And user click the logout option in creator credentials                                                                       # com.Step_Definition.Resource_Page_Step.user_click_the_logout_option_in_creator_credentials()
-  And user should enter the ApproverEmailAddress "<ApproverUser>" and ApproverPassword"<ApproverPass>" in approvers credentials # com.Step_Definition.Resource_Page_Step.user_should_enter_the_ApproverEmailAddress_and_ApproverPassword_in_approvers_credentials(java.lang.String,java.lang.String)
-  And user click the Login button in approver credentials and user click the Mynotification                                     # com.Step_Definition.Resource_Page_Step.user_click_the_Login_button_in_approver_credentials_and_user_click_the_Mynotification()
-  And user click the newly added resources and then click the approve button                                                    # com.Step_Definition.Resource_Page_Step.user_click_the_newly_added_resources_and_then_click_the_approve_button()
-  And users click the profile and users click logout button in approver credential                                              # com.Step_Definition.Resource_Page_Step.users_click_the_profile_and_users_click_logout_button_in_approver_credentials()
-  And user should enters the creator credential "<CreatorUser>" and  "<CreatorPassword>" and login the creator page             # com.Step_Definition.Resource_Page_Step.user_should_enters_the_creator_credential_and_and_login_the_creator_page(java.lang.String,java.lang.String)
-  And user click the my Notification by creater in that user click the newly added resource                                     # com.Step_Definition.Resource_Page_Step.user_click_the_my_Notification_by_creater_in_that_user_click_the_newly_added_resource()
-  And user click the publish button in creator credentials                                                                      # com.Step_Definition.Resource_Page_Step.user_click_the_publish_button_in_creator_credentials()
-  And user cick newest one and also click unpublish                                                                             # com.Step_Definition.Resource_Page_Step.user_cick_newest_one_and_also_click_unpublish()
-  And user logout the creator credentials                                                                                       # com.Step_Definition.Resource_Page_Step.user_logout_the_creator_credentials()
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 2487
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Feb 02, 2023 4:24:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Feb 02, 2023 5:16:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

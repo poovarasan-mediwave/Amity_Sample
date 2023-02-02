@@ -488,7 +488,7 @@ public class Resource_Page_Step extends Base_Class {
 		btnClick(si.getResources_Page().getBrowes_Option());
 		sleep(2000);
 		StringSelection str = new StringSelection(
-				"C:\\Users\\Mediwave Digital\\Pictures\\Screenshots\\logo-social.PNG");
+				"C:\\Users\\Mediwave Digital\\Pictures\\Screenshots\\Screenshot (43).png");
 		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(str, null);
 		Robot rb = new Robot();
 		rb.delay(1000);

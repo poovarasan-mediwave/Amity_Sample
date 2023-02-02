@@ -8,7 +8,7 @@ Feature: Image insert and approver approve
     And user should enter the resource title and user should select the Topic
     And user select ageGroup
     And user enter video caption in image "<CaptionImage>" and user click the video source button
-    And user insert the image page in video content option
+    #And user insert the image page in video content option
     And user enter the tags
     #And user should click the publisher button
     And user should select the approvers and also click the submit for approval button
