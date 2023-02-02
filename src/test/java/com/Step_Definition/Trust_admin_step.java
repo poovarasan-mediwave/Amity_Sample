@@ -3,7 +3,7 @@ package com.Step_Definition;
 import java.io.IOException;
 
 import com.Configuration_Reader.FileReaderManager;
-import com.Lib_Global.Base_Class;
+import com.Lib_Globals.Base_Class;
 import com.Single_Ton.Single_Ton_Design;
 
 import io.cucumber.java.en.Then;

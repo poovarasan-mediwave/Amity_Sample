@@ -1,10 +1,12 @@
-package com.Lib_Global;
+package com.Lib_Globals;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import javax.imageio.ImageIO;
+import javax.imageio.stream.ImageOutputStream;
+import javax.imageio.stream.ImageOutputStreamImpl;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.JavascriptExecutor;
@@ -94,8 +96,7 @@ public class Base_Class {
 	public static void screenshotPage(String screenshot) throws IOException {
 
 		Screenshot s = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(1000)).takeScreenshot(driver);
-		ImageIO.write(s.getImage(), "PNG",
-				new File(System.getProperty("user.dir") + "\\screenshot\\" + screenshot + ".png"));
+		ImageIO.write(s.getImage(), "PNG", new File(System.getProperty("user.dir") + "\\screenshot\\" + screenshot + ".png"));
 
 	}
 

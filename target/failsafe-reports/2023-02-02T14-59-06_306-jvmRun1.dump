@@ -1,11 +1,44 @@
-# Created at 2023-01-25T10:55:20.309
+# Created at 2023-02-02T15:04:04.912
 Exiting self fork JVM. Received SHUTDOWN command from Maven shutdown hook.
-Thread dump before exiting the process (7712@Poovarasan-laptop):
-"main" 
-   java.lang.Thread.State: TIMED_WAITING
-        at java.base@11.0.9/java.lang.Thread.sleep(Native Method)
-        at app/Amity.sample@0.0.1-SNAPSHOT/com.Lib_Global.Base_Class.sleep(Base_Class.java:91)
-        at app/Amity.sample@0.0.1-SNAPSHOT/com.Step_Definition.Super_admin_step.user_clicks_on_add_system_admin_button(Super_admin_step.java:38)
+Thread dump before exiting the process (17692@Poovarasan-laptop):
+"Forwarding get on session fc5fc953416d2797657c740803fc9b40 to remote" 
+   java.lang.Thread.State: RUNNABLE
+        at java.base@11.0.9/java.net.SocketInputStream.socketRead0(Native Method)
+        at java.base@11.0.9/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+        at java.base@11.0.9/java.net.SocketInputStream.read(SocketInputStream.java:168)
+        at java.base@11.0.9/java.net.SocketInputStream.read(SocketInputStream.java:140)
+        at app//okio.Okio$2.read(Okio.java:140)
+        at app//okio.AsyncTimeout$2.read(AsyncTimeout.java:237)
+        at app//okio.RealBufferedSource.indexOf(RealBufferedSource.java:355)
+        at app//okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:227)
+        at app//okhttp3.internal.http1.Http1Codec.readHeaderLine(Http1Codec.java:215)
+        at app//okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189)
+        at app//okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88)
+        at app//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+        at app//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+        at app//org.openqa.selenium.remote.internal.OkHttpClient$Factory$1.lambda$createClient$1(OkHttpClient.java:152)
+        at app//org.openqa.selenium.remote.internal.OkHttpClient$Factory$1$$Lambda$353/0x00000007c037f840.intercept(Unknown Source)
+        at app//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+        at app//okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
+        at app//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+        at app//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+        at app//okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+        at app//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+        at app//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+        at app//okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+        at app//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+        at app//okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+        at app//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+        at app//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+        at app//okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+        at app//okhttp3.RealCall.execute(RealCall.java:77)
+        at app//org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+        at app//org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+        at app//org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+        at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+        at app//org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+        at app/Amity.sample@0.0.1-SNAPSHOT/com.Lib_Globals.Base_Class.getDrive(Base_Class.java:48)
+        at app/Amity.sample@0.0.1-SNAPSHOT/com.Step_Definition.Hooks_Class.initiateBrowser(Hooks_Class.java:19)
         at java.base@11.0.9/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
         at java.base@11.0.9/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
         at java.base@11.0.9/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -13,14 +46,13 @@ Thread dump before exiting the process (7712@Poovarasan-laptop):
         at app//io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
         at app//io.cucumber.java.Invoker.invoke(Invoker.java:24)
         at app//io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-        at app//io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-        at app//io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-        at app//io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+        at app//io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
+        at app//io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+        at app//io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
         at app//io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
         at app//io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
         at app//io.cucumber.core.runner.TestStep.run(TestStep.java:64)
-        at app//io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-        at app//io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+        at app//io.cucumber.core.runner.TestCase.run(TestCase.java:98)
         at app//io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
         at app//io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
         at app//io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
@@ -90,16 +122,31 @@ Thread dump before exiting the process (7712@Poovarasan-laptop):
         at app//org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:388)
         at java.base@11.0.9/java.lang.Thread.run(Thread.java:834)
 
-"Exec Default Executor" 
-   java.lang.Thread.State: RUNNABLE
-        at java.base@11.0.9/java.lang.ProcessImpl.waitForInterruptibly(Native Method)
-        at java.base@11.0.9/java.lang.ProcessImpl.waitFor(ProcessImpl.java:542)
-        at app//org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:364)
-        at app//org.apache.commons.exec.DefaultExecutor.access$200(DefaultExecutor.java:48)
-        at app//org.apache.commons.exec.DefaultExecutor$1.run(DefaultExecutor.java:200)
+"OkHttp ConnectionPool" 
+   java.lang.Thread.State: TIMED_WAITING
+        at java.base@11.0.9/java.lang.Object.wait(Native Method)
+        at java.base@11.0.9/java.lang.Object.wait(Object.java:462)
+        at app//okhttp3.ConnectionPool$1.run(ConnectionPool.java:67)
+        at java.base@11.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base@11.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
         at java.base@11.0.9/java.lang.Thread.run(Thread.java:834)
 
-"UrlChecker-2" 
+"Okio Watchdog" 
+   java.lang.Thread.State: TIMED_WAITING
+        at java.base@11.0.9/java.lang.Object.wait(Native Method)
+        at java.base@11.0.9/java.lang.Object.wait(Object.java:462)
+        at app//okio.AsyncTimeout.awaitTimeout(AsyncTimeout.java:361)
+        at app//okio.AsyncTimeout$Watchdog.run(AsyncTimeout.java:312)
+
+"Java2D Disposer" 
+   java.lang.Thread.State: WAITING
+        at java.base@11.0.9/java.lang.Object.wait(Native Method)
+        at java.base@11.0.9/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+        at java.base@11.0.9/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+        at java.desktop@11.0.9/sun.java2d.Disposer.run(Disposer.java:144)
+        at java.base@11.0.9/java.lang.Thread.run(Thread.java:834)
+
+"UrlChecker-6" 
    java.lang.Thread.State: TIMED_WAITING
         at java.base@11.0.9/jdk.internal.misc.Unsafe.park(Native Method)
         at java.base@11.0.9/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
@@ -109,6 +156,15 @@ Thread dump before exiting the process (7712@Poovarasan-laptop):
         at java.base@11.0.9/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1053)
         at java.base@11.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
         at java.base@11.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base@11.0.9/java.lang.Thread.run(Thread.java:834)
+
+"Exec Default Executor" 
+   java.lang.Thread.State: RUNNABLE
+        at java.base@11.0.9/java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+        at java.base@11.0.9/java.lang.ProcessImpl.waitFor(ProcessImpl.java:542)
+        at app//org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:364)
+        at app//org.apache.commons.exec.DefaultExecutor.access$200(DefaultExecutor.java:48)
+        at app//org.apache.commons.exec.DefaultExecutor$1.run(DefaultExecutor.java:200)
         at java.base@11.0.9/java.lang.Thread.run(Thread.java:834)
 
 "Exec Stream Pumper" 
@@ -128,22 +184,6 @@ Thread dump before exiting the process (7712@Poovarasan-laptop):
         at java.base@11.0.9/java.io.FileInputStream.read(FileInputStream.java:257)
         at app//org.apache.commons.exec.StreamPumper.run(StreamPumper.java:107)
         at java.base@11.0.9/java.lang.Thread.run(Thread.java:834)
-
-"OkHttp ConnectionPool" 
-   java.lang.Thread.State: TIMED_WAITING
-        at java.base@11.0.9/java.lang.Object.wait(Native Method)
-        at java.base@11.0.9/java.lang.Object.wait(Object.java:462)
-        at app//okhttp3.ConnectionPool$1.run(ConnectionPool.java:67)
-        at java.base@11.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-        at java.base@11.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-        at java.base@11.0.9/java.lang.Thread.run(Thread.java:834)
-
-"Okio Watchdog" 
-   java.lang.Thread.State: TIMED_WAITING
-        at java.base@11.0.9/java.lang.Object.wait(Native Method)
-        at java.base@11.0.9/java.lang.Object.wait(Object.java:462)
-        at app//okio.AsyncTimeout.awaitTimeout(AsyncTimeout.java:361)
-        at app//okio.AsyncTimeout$Watchdog.run(AsyncTimeout.java:312)
 
 
 

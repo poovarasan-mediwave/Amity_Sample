@@ -4,7 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.Lib_Global.Base_Class;
+import com.Lib_Globals.Base_Class;
 
 public class cancel_page extends Base_Class {
 
@@ -17,7 +17,7 @@ public class cancel_page extends Base_Class {
 	@FindBy(xpath = "//a[normalize-space()='My notifications']")
 	private WebElement notifications;
 
-	@FindBy(xpath = "(//td[@class='blue-link onkeyup'])[8]")
+	@FindBy(xpath = "(//td[@class='blue-link onkeyup'])[1]")
 	private WebElement autotest;
 
 	@FindBy(xpath = "//button[@class='btn btn-primary']")

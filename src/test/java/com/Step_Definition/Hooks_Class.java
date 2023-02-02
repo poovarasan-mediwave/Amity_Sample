@@ -1,7 +1,7 @@
 package com.Step_Definition;
 
 import com.Configuration_Reader.FileReaderManager;
-import com.Lib_Global.Base_Class;
+import com.Lib_Globals.Base_Class;
 import com.Single_Ton.Single_Ton_Design;
 
 import io.cucumber.java.After;

@@ -1,0 +1,1745 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-02T10:48:55.398Z",
+        "before": [
+          {
+            "result": {
+              "duration": 45980199800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Step_Definition.Hooks_Class.initiateBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "This is Superadmin credentials in that create systemadmin user",
+        "description": "",
+        "id": "this-is-resources-create-feature;this-is-superadmin-credentials-in-that-create-systemadmin-user",
+        "after": [
+          {
+            "result": {
+              "duration": 774467800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Step_Definition.Hooks_Class.browserEnd()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 260026100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User enters valid \"\u003cemailaddress\u003e\" in Emailaddress field super admin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cemailaddress\u003e\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.Step_Definition.Super_admin_step.user_enters_valid_in_emailaddress_field_super_admin(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2155522900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter valid \"\u003cpassword\u003e\" in password field super admin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cpassword\u003e\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.Step_Definition.Super_admin_step.user_enter_valid_in_password_field_super_admin(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2123305100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks Login button in super admin",
+            "match": {
+              "location": "com.Step_Definition.Super_admin_step.user_clicks_login_button_in_super_admin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3126608300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on Add System Admin button",
+            "match": {
+              "location": "com.Step_Definition.Super_admin_step.user_clicks_on_add_system_admin_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 147419500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters system admin Username",
+            "match": {
+              "location": "com.Step_Definition.Super_admin_step.user_enters_system_admin_username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 152361200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters system admin Emailaddress",
+            "match": {
+              "location": "com.Step_Definition.Super_admin_step.user_enters_system_admin_emailaddress()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5164052000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks Create System admin button",
+            "match": {
+              "location": "com.Step_Definition.Super_admin_step.user_clicks_create_system_admin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3174315400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user logout super admin credentials",
+            "match": {
+              "location": "com.Step_Definition.Super_admin_step.user_logout_super_admin_credentials()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-02T10:49:58.644Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12389777100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Step_Definition.Hooks_Class.initiateBrowser()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Systemadmin credentials deactivate and activate",
+        "description": "",
+        "id": "this-is-resources-create-feature;systemadmin-credentials-deactivate-and-activate",
+        "after": [
+          {
+            "result": {
+              "duration": 755339900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Step_Definition.Hooks_Class.browserEnd()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 190066800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enter the Email Address in text field",
+            "match": {
+              "location": "com.Step_Definition.Super_admin_step.user_enter_the_email_address_in_text_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2117521200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enter the Password in text field",
+            "match": {
+              "location": "com.Step_Definition.Super_admin_step.user_enter_the_password_in_text_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3092921900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user click the Login Button and it navigates to Trust management",
+            "match": {
+              "location": "com.Step_Definition.Super_admin_step.user_click_the_login_button_and_it_navigates_to_trust_management()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2138000100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user click the deactivate button and confirm pop up occurs",
+            "match": {
+              "location": "com.Step_Definition.Super_admin_step.user_click_the_deactivate_button_and_confirm_pop_up_occurs()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5108477900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user click the yes button and success message pops up",
+            "match": {
+              "location": "com.Step_Definition.Super_admin_step.user_click_the_yes_button_and_success_message_pops_up()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7955714200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user click the current resources list button and take screenshot",
+            "match": {
+              "location": "com.Step_Definition.Super_admin_step.user_click_the_current_resources_list_button_and_take_screenshot()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5174106800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user click the Trust management button and navigates to trust management page",
+            "match": {
+              "location": "com.Step_Definition.Super_admin_step.user_click_the_trust_management_button_and_navigates_to_trust_management_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2146559200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user click the activate button and confirm pop up occurs",
+            "match": {
+              "location": "com.Step_Definition.Super_admin_step.user_click_the_activate_button_and_confirm_pop_up_occurs()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5081845800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user click Yes Button and success message pop up",
+            "match": {
+              "location": "com.Step_Definition.Super_admin_step.user_click_yes_button_and_success_message_pop_up()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9430556800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user click the Current resources List button and Take screenshots",
+            "match": {
+              "location": "com.Step_Definition.Super_admin_step.user_click_the_current_resources_list_button_and_take_screenshots()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6230334300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user logout trust admin credentials",
+            "match": {
+              "location": "com.Step_Definition.Super_admin_step.user_logout_trust_admin_credentials()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Super_Admin1"
+          }
+        ]
+      }
+    ],
+    "name": "This is Resources create feature",
+    "description": "",
+    "id": "this-is-resources-create-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature_File/1Super_Admin.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-02T10:51:00.509Z",
+        "before": [
+          {
+            "result": {
+              "duration": 17436742800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Step_Definition.Hooks_Class.initiateBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Trustadmin Login",
+        "description": "",
+        "id": "trustadmin-login;trustadmin-login",
+        "after": [
+          {
+            "result": {
+              "duration": 716266500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Step_Definition.Hooks_Class.browserEnd()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 190608400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter the email address in user field",
+            "match": {
+              "location": "com.Step_Definition.Trust_admin_step.user_enter_the_email_address_in_user_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2108132400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter the password in password field",
+            "match": {
+              "location": "com.Step_Definition.Trust_admin_step.user_enter_the_password_in_password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3110313600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click the login Button and it navigates to current resource list page",
+            "match": {
+              "location": "com.Step_Definition.Trust_admin_step.user_click_the_login_button_and_it_navigates_to_current_resource_list_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3098388200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click the usermanagement button and naviagtes to user management page",
+            "match": {
+              "location": "com.Step_Definition.Trust_admin_step.user_click_the_usermanagement_button_and_naviagtes_to_user_management_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9323450600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click add user button and add a new user popups",
+            "match": {
+              "location": "com.Step_Definition.Trust_admin_step.user_click_add_user_button_and_add_a_new_user_popups()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2588876900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter the name and email address and click the creator button",
+            "match": {
+              "location": "com.Step_Definition.Trust_admin_step.user_enter_the_name_and_email_address_and_click_the_creator_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4081094200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks the create user button and success message pops up",
+            "match": {
+              "location": "com.Step_Definition.Trust_admin_step.user_clicks_the_create_user_button_and_success_message_pops_up()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2086571900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click the Add user button and add a new User popups",
+            "match": {
+              "location": "com.Step_Definition.Trust_admin_step.user_click_the_add_user_button_and_add_a_new_user_popups()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5687471600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enter the Name and Email address and Click the approver button",
+            "match": {
+              "location": "com.Step_Definition.Trust_admin_step.user_enter_the_name_and_email_address_and_click_the_approver_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7372341800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user click the create User button and Success message pops up",
+            "match": {
+              "location": "com.Step_Definition.Trust_admin_step.user_click_the_create_user_button_and_success_message_pops_up()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8210150000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user click the logout button and naviagtes to login page",
+            "match": {
+              "location": "com.Step_Definition.Trust_admin_step.user_click_the_logout_button_and_naviagtes_to_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@trust"
+          }
+        ]
+      }
+    ],
+    "name": "Trustadmin login",
+    "description": "",
+    "id": "trustadmin-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature_File/2Trust.feature",
+    "tags": [
+      {
+        "name": "@trust",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-02T10:52:06.573Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5735718100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Step_Definition.Hooks_Class.initiateBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Creator create and approver approve and cancel",
+        "description": "",
+        "id": "test-the-approver-cancel-flow;creator-create-and-approver-approve-and-cancel",
+        "after": [
+          {
+            "result": {
+              "duration": 807182900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Step_Definition.Hooks_Class.browserEnd()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 270131900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter the cretor username \"\u003cCreatorUser\u003e\" and creatorpassword \"\u003cCreatorPassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cCreatorUser\u003e\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"\u003cCreatorPassword\u003e\"",
+                  "offset": 67
+                }
+              ],
+              "location": "com.Step_Definition.Cancel_Step.user_enter_the_cretor_username_and_creatorpassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2070964200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click the Login button in creator user",
+            "match": {
+              "location": "com.Step_Definition.Cancel_Step.user_click_the_login_button_in_creator_user()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4187547100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user navigate to resource page and user click the create new resource option",
+            "match": {
+              "location": "com.Step_Definition.Cancel_Step.user_navigate_to_resource_page_and_user_click_the_create_new_resource_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4205452100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should select the article in resource type form",
+            "match": {
+              "location": "com.Step_Definition.Cancel_Step.user_should_select_the_article_in_resource_type_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10375524700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter the resource titles and then user should select the topics",
+            "match": {
+              "location": "com.Step_Definition.Cancel_Step.user_enter_the_resource_titles_and_then_user_should_select_the_topics()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5175552600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should select ageGroups",
+            "match": {
+              "location": "com.Step_Definition.Cancel_Step.user_should_select_age_groups()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9669311400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user add the content links and click the save button",
+            "match": {
+              "location": "com.Step_Definition.Cancel_Step.user_add_the_content_links_and_click_the_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14635375700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enter tag and click the list of current tags",
+            "match": {
+              "location": "com.Step_Definition.Cancel_Step.user_enter_tag_and_click_the_list_of_current_tags()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5211420000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should select the approver list and click the submit for approval button",
+            "match": {
+              "location": "com.Step_Definition.Cancel_Step.user_should_select_the_approver_list_and_click_the_submit_for_approval_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7333827600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user take screenshot and click the profile option",
+            "match": {
+              "location": "com.Step_Definition.Cancel_Step.user_take_screenshot_and_click_the_profile_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6123168500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user click the logout option in creator",
+            "match": {
+              "location": "com.Step_Definition.Cancel_Step.user_click_the_logout_option_in_creator()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130459400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user Enter the Email Address in User text box",
+            "match": {
+              "location": "com.Step_Definition.Cancel_Step.user_Enter_the_Email_Address_in_User_text_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 89938200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user Enter the Password in password text box",
+            "match": {
+              "location": "com.Step_Definition.Cancel_Step.user_Enter_the_Password_in_password_text_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5103089900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user Click the Login Button and It Navigates to current resource list page",
+            "match": {
+              "location": "com.Step_Definition.Cancel_Step.user_Click_the_Login_Button_and_It_Navigates_to_current_resource_list_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 112525300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user click the my notification button in dashboard and navigates to my notifiaction",
+            "match": {
+              "location": "com.Step_Definition.Cancel_Step.user_click_the_my_notification_button_in_dashboard_and_navigates_to_my_notifiaction()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5084816700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user click the recently added notification button",
+            "match": {
+              "location": "com.Step_Definition.Cancel_Step.user_click_the_recently_added_notification_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7451539800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user click the approve button and success message pops up",
+            "match": {
+              "location": "com.Step_Definition.Cancel_Step.user_click_the_approve_button_and_success_message_pops_up()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95299200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user click the approved notification button and navigates to cancel approve page",
+            "match": {
+              "location": "com.Step_Definition.Cancel_Step.user_click_the_approved_notification_button_and_navigates_to_cancel_approve_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6774998600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user click the cancel approve button and select okay button",
+            "match": {
+              "location": "com.Step_Definition.Cancel_Step.user_click_the_cancel_approve_button_and_select_okay_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cancel"
+          }
+        ]
+      }
+    ],
+    "name": "Test the Approver cancel flow",
+    "description": "",
+    "id": "test-the-approver-cancel-flow",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature_File/3cancel.feature",
+    "tags": [
+      {
+        "name": "@cancel",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-02T10:53:47.290Z",
+        "before": [
+          {
+            "result": {
+              "duration": 18656829900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Step_Definition.Hooks_Class.initiateBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Test the Creator create resources insert image and approver approve, creator publish and unpublish",
+        "description": "",
+        "id": "image-insert-and-approver-approve;test-the-creator-create-resources-insert-image-and-approver-approve--creator-publish-and-unpublish",
+        "after": [
+          {
+            "result": {
+              "duration": 701978100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Step_Definition.Hooks_Class.browserEnd()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 280175800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enter the CUser \"\u003cCreatorUser\u003e\" and CPassword \"\u003cCreatorPassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cCreatorUser\u003e\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"\u003cCreatorPassword\u003e\"",
+                  "offset": 51
+                }
+              ],
+              "location": "com.Step_Definition.Resource_Page_Step.user_enter_the_c_user_and_c_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2084653800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login creator credentials",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_login_creator_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5154599800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should be on resource page and click the create new resource option",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_should_be_on_resource_page_and_click_the_create_new_resource_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@id\u003d\u0027react-select-2-placeholder\u0027]/parent::div/parent::div\"}\n  (Session info: chrome\u003d109.0.5414.120)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027POOVARASAN-LAPT\u0027, ip: \u0027192.168.0.233\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\\Users\\MEDIWA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:55751}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d143a0f775867374d703ec85affd5af3\n*** Element info: {Using\u003dxpath, value\u003d//div[@id\u003d\u0027react-select-2-placeholder\u0027]/parent::div/parent::div}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy21.click(Unknown Source)\r\n\tat Amity.sample@0.0.1-SNAPSHOT/com.Lib_Globals.Base_Class.btnClick(Base_Class.java:69)\r\n\tat Amity.sample@0.0.1-SNAPSHOT/com.Step_Definition.Resource_Page_Step.user_select_the_video_in_Resources_Type(Resource_Page_Step.java:444)\r\n\tat ✽.user select the video in Resources Type(file:///C:/Users/Mediwave%20Digital/eclipse-workspace/Amity_sample/src/test/resources/Feature_File/Imageinsert_approve.feature:7)\r\n",
+              "duration": 5045016600,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "user select the video in Resources Type",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_select_the_video_in_Resources_Type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5430500,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user should enter the resource title and user should select the Topic",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_should_enter_the_resource_title_and_user_should_select_the_Topic()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user select ageGroup",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_select_ageGroup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user enter video caption in image \"\u003cCaptionImage\u003e\" and user click the video source button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cCaptionImage\u003e\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.Step_Definition.Resource_Page_Step.user_enter_video_caption_in_image_and_user_click_the_video_source_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user insert the image page in video content option",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_insert_the_image_page_in_video_content_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user enter the tags",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_enter_the_tags()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user should select the approvers and also click the submit for approval button",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_should_select_the_approvers_and_also_click_the_submit_for_approval_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3895000,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user click the profile option and then user click the logout button in creator",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_click_the_profile_option_and_then_user_click_the_logout_button_in_creator()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user should enter the \"\u003cApproverUser\u003e\" and \"\u003cApproverPass\u003e\" and user click the Login button in approver credentials",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cApproverUser\u003e\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"\u003cApproverPass\u003e\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.Step_Definition.Resource_Page_Step.user_should_enter_the_and_and_user_click_the_Login_button_in_approver_credentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user should click the Mynotification option and user click the newly added resources",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_should_click_the_Mynotification_option_and_user_click_the_newly_added_resources()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "users click the approve button",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_click_the_approve_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "users click the profile and users click logout button approver credential",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.users_click_the_profile_and_users_click_logout_button_approver_credential()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user should enters the \"\u003cCreatorUser\u003e\" and  \"\u003cCreatorPassword\u003e\" and login the creator page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cCreatorUser\u003e\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"\u003cCreatorPassword\u003e\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.Step_Definition.Resource_Page_Step.user_should_enters_the_and_and_login_the_creator_page(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "user click the my Notification by creater and user click the newly added resource",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_click_the_my_Notification_by_creater_and_user_click_the_newly_added_resource()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "user click the publish button and user logout the creator credentials",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_click_the_publish_button_and_user_logout_the_creator_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "user enters the \"\u003cTrustUser\u003e\" and \"\u003cTrustPassword\u003e\" in trust admin and user click login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cTrustUser\u003e\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"\u003cTrustPassword\u003e\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.Step_Definition.Resource_Page_Step.user_enters_the_and_in_trust_admin_and_user_click_login_button(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "user should click the Mynotification option and user search the already create contentor name and click the newest one",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_should_click_the_Mynotification_option_and_user_search_the_already_create_contentor_name_and_click_the_newest_one()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "user should take screenshot for present creator",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_should_take_screenshot_for_present_creator()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Image insert and approver approve",
+    "description": "",
+    "id": "image-insert-and-approver-approve",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature_File/Imageinsert_approve.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-02T10:54:19.304Z",
+        "before": [
+          {
+            "result": {
+              "duration": 24709865300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Step_Definition.Hooks_Class.initiateBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Test the Creator create resources and Approver gives error message",
+        "description": "",
+        "id": "approver-give-flag-for-review-flow;test-the-creator-create-resources-and-approver-gives-error-message",
+        "after": [
+          {
+            "result": {
+              "duration": 1275778000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Step_Definition.Hooks_Class.browserEnd()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 258814900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enter the \"\u003cCreatorUser\u003e\" and \"\u003cCreatorPassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cCreatorUser\u003e\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"\u003cCreatorPassword\u003e\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.Step_Definition.Resource_Page_Step.user_enter_the_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2096032900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click the Login button in creator crendentials",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_click_the_Login_button_in_creator_crendentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5144094800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should navigate to resource page and user click the create new resource option",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_should_navigate_to_resource_page_and_user_click_the_create_new_resource_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@id\u003d\u0027react-select-2-placeholder\u0027]/parent::div/parent::div\"}\n  (Session info: chrome\u003d109.0.5414.120)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027POOVARASAN-LAPT\u0027, ip: \u0027192.168.0.233\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\\Users\\MEDIWA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:55789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7213d254aa8cded39e87d613f03b9028\n*** Element info: {Using\u003dxpath, value\u003d//div[@id\u003d\u0027react-select-2-placeholder\u0027]/parent::div/parent::div}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy21.click(Unknown Source)\r\n\tat Amity.sample@0.0.1-SNAPSHOT/com.Lib_Globals.Base_Class.btnClick(Base_Class.java:69)\r\n\tat Amity.sample@0.0.1-SNAPSHOT/com.Step_Definition.Resource_Page_Step.user_should_select_the_article_in_resource_type(Resource_Page_Step.java:49)\r\n\tat ✽.user should select the article in resource type(file:///C:/Users/Mediwave%20Digital/eclipse-workspace/Amity_sample/src/test/resources/Feature_File/Not_Approve.feature:7)\r\n",
+              "duration": 5079945700,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "user should select the article in resource type",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_should_select_the_article_in_resource_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user enter the resource title and then user should select the topic",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_enter_the_resource_title_and_then_user_should_select_the_topic()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user should select the ageGroup",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_should_select_the_ageGroup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user add the content link and then click the save button",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_add_the_content_link_and_then_click_the_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user enter tags and then click the list of current tags",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_enter_tags_and_then_click_the_list_of_current_tags()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user should select the approvers list and then click the submit for approval button",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_should_select_the_approvers_list_and_then_click_the_submit_for_approval_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user take screenshot and then click the profile option",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_take_screenshot_and_then_click_the_profile_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user click the logout option in creator crendentials",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_click_the_logout_option_in_creator_crendentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4013200,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user should enters the ApprovaerEmail \"\u003cApproverUser\u003e\" and ApproverPassword\"\u003cApproverPass\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cApproverUser\u003e\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"\u003cApproverPass\u003e\"",
+                  "offset": 75
+                }
+              ],
+              "location": "com.Step_Definition.Resource_Page_Step.user_should_enters_the_ApprovaerEmail_and_ApproverPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user click the Login button and then click the my Notification option",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_click_the_Login_button_and_then_click_the_my_Notification_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5224700,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user click the newly added resources name",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_click_the_newly_added_resources_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user click the flag for review button and then enter notes after click the submit button",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_click_the_flag_for_review_button_and_then_enter_notes_after_click_the_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user should take screenshot and then click the profile option",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_should_take_screenshot_and_then_click_the_profile_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "user click the logout option in approver credentials",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_click_the_logout_option_in_approver_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "user enter the \"\u003cCreatorUser\u003e\" and \"\u003cCreatorPassword\u003e\" and then user click the Login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cCreatorUser\u003e\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"\u003cCreatorPassword\u003e\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.Step_Definition.Resource_Page_Step.user_enter_the_and_and_then_user_click_the_Login_button(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "user click the my notification button in creator login and then user take screenshot",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_click_the_my_notification_button_in_creator_login_and_then_user_take_screenshot()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Approver give flag for review flow",
+    "description": "",
+    "id": "approver-give-flag-for-review-flow",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature_File/Not_Approve.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-02T10:54:57.932Z",
+        "before": [
+          {
+            "result": {
+              "duration": 46505060600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Step_Definition.Hooks_Class.initiateBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Test the Creator create resources and Approver approve and then publish",
+        "description": "",
+        "id": "approver-approve-and-creator-publish-and-unpublish-flow;test-the-creator-create-resources-and-approver-approve-and-then-publish",
+        "after": [
+          {
+            "result": {
+              "duration": 768457700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Step_Definition.Hooks_Class.browserEnd()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 279583900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enter CCusername \"\u003cCreatorUser\u003e\" and CCpassword \"\u003cCreatorPassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cCreatorUser\u003e\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"\u003cCreatorPassword\u003e\"",
+                  "offset": 53
+                }
+              ],
+              "location": "com.Step_Definition.Resource_Page_Step.user_enter_c_cusername_and_c_cpassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2098362700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click login for Content creator credentials",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.click_login_for_content_creator_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5132239900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigate resource page and click the create new resource option",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_navigate_resource_page_and_click_the_create_new_resource_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (501, 931)\n  (Session info: chrome\u003d109.0.5414.120)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027POOVARASAN-LAPT\u0027, ip: \u0027192.168.0.233\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\\Users\\MEDIWA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:55830}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 2b16eca71232a025cfb3a01c5eae19c5\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy21.click(Unknown Source)\r\n\tat Amity.sample@0.0.1-SNAPSHOT/com.Lib_Globals.Base_Class.btnClick(Base_Class.java:69)\r\n\tat Amity.sample@0.0.1-SNAPSHOT/com.Step_Definition.Resource_Page_Step.user_should_select_the_video_in_Resources_Type(Resource_Page_Step.java:225)\r\n\tat ✽.user should  select the video in Resources Type(file:///C:/Users/Mediwave%20Digital/eclipse-workspace/Amity_sample/src/test/resources/Feature_File/Publish_unpublish.feature:7)\r\n",
+              "duration": 6591159400,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "user should  select the video in Resources Type",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_should_select_the_video_in_Resources_Type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user should  enter the resource title and then user should select the topic",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_should_enter_the_resource_title_and_then_user_should_select_the_topic()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user select the ageGroup",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_select_the_ageGroup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user enter the video caption \"\u003ccaption\u003e\" and then user click the video source",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003ccaption\u003e\"",
+                  "offset": 29
+                }
+              ],
+              "location": "com.Step_Definition.Resource_Page_Step.user_enter_the_video_caption_and_then_user_click_the_video_source(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user add the  video content link in creator page and then click the save button",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_add_the_video_content_link_in_creator_page_and_then_click_the_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user enter tags and then click the list of current tags in that click add tag button",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_enter_tags_and_then_click_the_list_of_current_tags_in_that_click_add_tag_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2021300,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user select the approvers list and then click the submit for approval button",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_select_the_approvers_list_and_then_click_the_submit_for_approval_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user take screenshot and then click profile option",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_take_screenshot_and_then_click_profile_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user click the logout option in creator credentials",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_click_the_logout_option_in_creator_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user should enter the ApproverEmailAddress \"\u003cApproverUser\u003e\" and ApproverPassword\"\u003cApproverPass\u003e\" in approvers credentials",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cApproverUser\u003e\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"\u003cApproverPass\u003e\"",
+                  "offset": 80
+                }
+              ],
+              "location": "com.Step_Definition.Resource_Page_Step.user_should_enter_the_ApproverEmailAddress_and_ApproverPassword_in_approvers_credentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user click the Login button in approver credentials and user click the Mynotification",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_click_the_Login_button_in_approver_credentials_and_user_click_the_Mynotification()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user click the newly added resources and then click the approve button",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_click_the_newly_added_resources_and_then_click_the_approve_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "users click the profile and users click logout button in approver credential",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.users_click_the_profile_and_users_click_logout_button_in_approver_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "user should enters the creator credential \"\u003cCreatorUser\u003e\" and  \"\u003cCreatorPassword\u003e\" and login the creator page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cCreatorUser\u003e\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"\u003cCreatorPassword\u003e\"",
+                  "offset": 63
+                }
+              ],
+              "location": "com.Step_Definition.Resource_Page_Step.user_should_enters_the_creator_credential_and_and_login_the_creator_page(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "user click the my Notification by creater in that user click the newly added resource",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_click_the_my_Notification_by_creater_in_that_user_click_the_newly_added_resource()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "user click the publish button in creator credentials",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_click_the_publish_button_in_creator_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "user cick newest one and also click unpublish",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_cick_newest_one_and_also_click_unpublish()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "user logout the creator credentials",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_logout_the_creator_credentials()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Approver approve and creator publish and unpublish flow",
+    "description": "",
+    "id": "approver-approve-and-creator-publish-and-unpublish-flow",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature_File/Publish_unpublish.feature",
+    "tags": []
+  }
+]

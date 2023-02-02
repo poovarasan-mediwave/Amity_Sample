@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.Lib_Global.Base_Class;
+import com.Lib_Globals.Base_Class;
 
 public class Resources_Page extends Base_Class {
 
@@ -47,14 +47,29 @@ public class Resources_Page extends Base_Class {
 	@FindBy(xpath = "//div[@id='react-select-2-placeholder']/parent::div/parent::div")
 	private WebElement resources_Type;
 
+	@FindBy(xpath = "//div[@id='react-select-2-option-1']")
+	private WebElement articlesTag;
+
+	@FindBy(xpath = "//div[@id='react-select-2-option-8']")
+	private WebElement videoTag;
+
 	@FindBy(id = "title")
 	private WebElement resource_Title;
 
 	@FindBy(xpath = "//div[@id='react-select-3-placeholder']/parent::div/parent::div")
 	private WebElement topics;
 
+	@FindBy(xpath = "//div[@id='react-select-3-option-1']")
+	private WebElement cancerTag;
+
+	@FindBy(xpath = "//div[@id='react-select-3-option-2']")
+	private WebElement diabetesTag;
+
 	@FindBy(xpath = "//div[@id='react-select-4-placeholder']/parent::div/parent::div")
 	private WebElement age_Group;
+
+	@FindBy(xpath = "//div[@id='react-select-4-option-0']")
+	private WebElement adulttag;
 
 	@FindBy(xpath = "//div[@class='tox tox-tinymce']/div/div[2]/div/iframe")
 	private WebElement aticle_Content;
@@ -85,6 +100,9 @@ public class Resources_Page extends Base_Class {
 
 	@FindBy(xpath = "//div[@id='react-select-5-placeholder']/parent::div/parent::div")
 	private WebElement SelectApprovers;
+
+	@FindBy(xpath = "//div[@id='react-select-5-option-0']")
+	private WebElement approverselectTag;
 
 	@FindBy(xpath = "//button[@class='btn btn-violet']")
 	private WebElement submitfor_Approval_button;
@@ -290,6 +308,30 @@ public class Resources_Page extends Base_Class {
 		return save_button;
 	}
 
+	public WebElement getArticlesTag() {
+		return articlesTag;
+	}
+
+	public WebElement getCancerTag() {
+		return cancerTag;
+	}
+
+	public WebElement getAdulttag() {
+		return adulttag;
+	}
+
+	public WebElement getApproverselectTag() {
+		return approverselectTag;
+	}
+
+	public WebElement getVideoTag() {
+		return videoTag;
+	}
+
+	public WebElement getDiabetesTag() {
+		return diabetesTag;
+	}
+
 	public void verifyResource() {
 
 		String ref = "RESOURCES";
@@ -311,38 +353,4 @@ public class Resources_Page extends Base_Class {
 		r.keyRelease(KeyEvent.VK_ENTER);
 	}
 
-	public void robotCl() throws AWTException {
-
-		Robot rt = new Robot();
-		rt.keyPress(KeyEvent.VK_DOWN);
-		rt.keyRelease(KeyEvent.VK_DOWN);
-	}
-
-	public void robotClass1() throws AWTException {
-
-		Robot rt = new Robot();
-		rt.keyPress(KeyEvent.VK_DOWN);
-		rt.keyRelease(KeyEvent.VK_DOWN);
-		rt.keyPress(KeyEvent.VK_DOWN);
-		rt.keyRelease(KeyEvent.VK_DOWN);
-		rt.keyPress(KeyEvent.VK_DOWN);
-		rt.keyRelease(KeyEvent.VK_DOWN);
-		rt.keyPress(KeyEvent.VK_DOWN);
-		rt.keyRelease(KeyEvent.VK_DOWN);
-		rt.keyPress(KeyEvent.VK_DOWN);
-		rt.keyRelease(KeyEvent.VK_DOWN);
-		rt.keyPress(KeyEvent.VK_DOWN);
-		rt.keyRelease(KeyEvent.VK_DOWN);
-		rt.keyPress(KeyEvent.VK_DOWN);
-		rt.keyRelease(KeyEvent.VK_DOWN);
-		rt.keyPress(KeyEvent.VK_DOWN);
-		rt.keyRelease(KeyEvent.VK_DOWN);
-	}
-
-	public void robotClass2() throws AWTException {
-		Robot rt = new Robot();
-		rt.keyPress(KeyEvent.VK_DOWN);
-		rt.keyRelease(KeyEvent.VK_DOWN);
-
-	}
 }

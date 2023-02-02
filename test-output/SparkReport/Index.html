@@ -37,7 +37,7 @@ Test Automation Report
 </span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jan 25, 2023 10:37:31</span></a>
+<a href="#"><span class="badge badge-primary">Feb 02, 2023 16:18:54</span></a>
 </li>
 </ul>
 </div>
@@ -73,25 +73,25 @@ Test Automation Report
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jan 25, 2023 10:37:31</h3>
+<h3>Feb 02, 2023 16:18:54</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jan 25, 2023 10:40:24</h3>
+<h3>Feb 02, 2023 16:25:59</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Features Passed</p>
-<h3>0</h3>
+<h3>3</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Features Failed</p>
-<h3>4</h3>
+<h3>3</h3>
 </div></div>
 </div>
 </div>
@@ -107,12 +107,12 @@ Test Automation Report
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='0%'>
-<b>0</b> features passed
+<div><small data-tooltip='50%'>
+<b>3</b> features passed
 </small>
 </div>
 <div>
-<small data-tooltip='100%'><b>4</b> features failed,
+<small data-tooltip='50%'><b>3</b> features failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -130,9 +130,9 @@ Test Automation Report
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='0%'><b>0</b> scenarios passed</small></div>
+<div><small data-tooltip='57%'><b>4</b> scenarios passed</small></div>
 <div>
-<small data-tooltip='100%'><b>7</b> scenarios failed,
+<small data-tooltip='42%'><b>3</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -150,10 +150,10 @@ Test Automation Report
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='21%'><b>22</b> steps passed</small></div>
+<div><small data-tooltip='52%'><b>58</b> steps passed</small></div>
 <div>
-<small data-tooltip='6%'><b>7</b> steps failed,
-<b>73</b> skipped, <b data-tooltip='%'>0</b> others
+<small data-tooltip='2%'><b>3</b> steps failed,
+<b>49</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -169,7 +169,7 @@ Test Automation Report
 </div></div>
 <script>
 var timeline = {
-"This is Resources create feature":36.384,"Trustadmin login":23.882,"Approver login":19.19,"Test the Resource functionality":92.934
+"This is Resources create feature":125.015,"Trustadmin login":66.02,"Test the Approver cancel flow":100.665,"Image insert and approver approve":31.952,"Approver give flag for review flow":38.585,"Approver approve and creator publish and unpublish flow":61.398
 };
 </script>
 <div class="row">
@@ -179,28 +179,28 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
-<td>@Super_Admin1</td>
-<td>0</td>
+<td>@cancel</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0%</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Super_Admin1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
 </tr>
 <tr>
 <td>@trust</td>
-<td>0</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0%</td>
-</tr>
-<tr>
-<td>@cancel</td>
 <td>0</td>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>0%</td>
+<td>100%</td>
 </tr>
 </tbody>
 </table></div>
@@ -237,21 +237,21 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 0,
-failParent: 4,
+passParent: 3,
+failParent: 3,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 0,
-failChild: 7,
+passChild: 4,
+failChild: 3,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 22,
-failGrandChild: 7,
+passGrandChild: 58,
+failGrandChild: 3,
 warningGrandChild: 0,
-skipGrandChild: 73,
+skipGrandChild: 49,
 infoGrandChild: 0,
 eventsCount: 5,
 };
@@ -265,6 +265,7 @@ eventsCount: 5,
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
 <a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
@@ -273,31 +274,31 @@ eventsCount: 5,
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@Super_Admin1</a><a class="dropdown-item" href="#">@trust</a><a class="dropdown-item" href="#">@cancel</a>
+<a class="dropdown-item" href="#">@cancel</a><a class="dropdown-item" href="#">@Super_Admin1</a><a class="dropdown-item" href="#">@trust</a>
 </ul>
 </li>
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="fail" test-id="1"
+        <li class="test-item"  status="pass" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">This is Resources create feature</p>
             <p class="text-sm">
-              <span>10:37:31 AM</span> / <span>00:00:36:384</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>4:18:55 PM</span> / <span>00:02:05:015</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">This is Resources create feature</h5>
-<span class='badge badge-success'>01.25.2023 10:37:31 AM</span>
-<span class='badge badge-danger'>01.25.2023 10:38:08 AM</span>
-<span class='badge badge-default'>00:00:36:384</span>
+<h5 class="test-status text-pass">This is Resources create feature</h5>
+<span class='badge badge-success'>02.02.2023 4:18:55 PM</span>
+<span class='badge badge-danger'>02.02.2023 4:21:00 PM</span>
+<span class='badge badge-default'>00:02:05:015</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -309,10 +310,10 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>This is Superadmin credentials in that create systemadmin user</div>
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>This is Superadmin credentials in that create systemadmin user</div>
       </div>
     </div>
-        <div class="">
+        <div class="collapse">
           <div class="card-body">
               <div class="step pass-bg" title="com.Step_Definition.Super_admin_step.user_enters_valid_in_emailaddress_field_super_admin(java.lang.String)">
                 <span>Then User enters valid "<emailaddress>" in Emailaddress field super admin</span>
@@ -349,39 +350,9 @@ eventsCount: 5,
       <div>
       </div>
               </div>
-              <div class="step fail-bg" title="com.Step_Definition.Super_admin_step.user_logout_super_admin_credentials()">
+              <div class="step pass-bg" title="com.Step_Definition.Super_admin_step.user_logout_super_admin_credentials()">
                 <span>And user logout super admin credentials</span>
       <div>
-        <textarea disabled class="code-block">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="profile-dropdown">...</div> is not clickable at point (1446, 44). Other element would receive the click: <div class="overlay-base">...</div>
-  (Session info: chrome=109.0.5414.75)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'POOVARASAN-LAPT', ip: '192.168.0.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\MEDIWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53740}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3a43bea3349dd32517a58532d6a7de66
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy21.click(Unknown Source)
-	at Amity.sample@0.0.1-SNAPSHOT/com.Lib_Global.Base_Class.btnClick(Base_Class.java:67)
-	at Amity.sample@0.0.1-SNAPSHOT/com.Step_Definition.Super_admin_step.user_logout_super_admin_credentials(Super_admin_step.java:66)
-	at ?.user logout super admin credentials(file:///C:/Users/Mediwave%20Digital/eclipse-workspace/Amity_sample/src/test/resources/Feature_File/1Super_Admin.feature:11)
-</textarea>
-      
       </div>
               </div>
           </div>
@@ -390,10 +361,10 @@ Session ID: 3a43bea3349dd32517a58532d6a7de66
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="13"><span class="badge log fail-bg mr-2">Fail</span>Systemadmin credentials deactivate and activate</div>
+        <div class="node" id="13"><span class="badge log pass-bg mr-2">Pass</span>Systemadmin credentials deactivate and activate</div>
       </div>
     </div>
-        <div class="">
+        <div class="collapse">
           <div class="card-body">
               <div class="step pass-bg" title="com.Step_Definition.Super_admin_step.user_enter_the_email_address_in_text_field()">
                 <span>When user enter the Email Address in text field</span>
@@ -410,74 +381,44 @@ Session ID: 3a43bea3349dd32517a58532d6a7de66
       <div>
       </div>
               </div>
-              <div class="step fail-bg" title="com.Step_Definition.Super_admin_step.user_click_the_deactivate_button_and_confirm_pop_up_occurs()">
+              <div class="step pass-bg" title="com.Step_Definition.Super_admin_step.user_click_the_deactivate_button_and_confirm_pop_up_occurs()">
                 <span>When user click the deactivate button and confirm pop up occurs</span>
       <div>
-        <textarea disabled class="code-block">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1092, 739)
-  (Session info: chrome=109.0.5414.75)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'POOVARASAN-LAPT', ip: '192.168.0.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\MEDIWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53759}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 86389695268328c0f124e4406b456434
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy21.click(Unknown Source)
-	at Amity.sample@0.0.1-SNAPSHOT/com.Lib_Global.Base_Class.btnClick(Base_Class.java:67)
-	at Amity.sample@0.0.1-SNAPSHOT/com.Step_Definition.Super_admin_step.user_click_the_deactivate_button_and_confirm_pop_up_occurs(Super_admin_step.java:96)
-	at ?.user click the deactivate button and confirm pop up occurs(file:///C:/Users/Mediwave%20Digital/eclipse-workspace/Amity_sample/src/test/resources/Feature_File/1Super_Admin.feature:18)
-</textarea>
-      
       </div>
               </div>
-              <div class="step skip-bg" title="com.Step_Definition.Super_admin_step.user_click_the_yes_button_and_success_message_pops_up()">
+              <div class="step pass-bg" title="com.Step_Definition.Super_admin_step.user_click_the_yes_button_and_success_message_pops_up()">
                 <span>When user click the yes button and success message pops up</span>
-      <div>Step skipped
+      <div>
       </div>
               </div>
-              <div class="step skip-bg" title="com.Step_Definition.Super_admin_step.user_click_the_current_resources_list_button_and_take_screenshot()">
+              <div class="step pass-bg" title="com.Step_Definition.Super_admin_step.user_click_the_current_resources_list_button_and_take_screenshot()">
                 <span>And user click the current resources list button and take screenshot</span>
-      <div>Step skipped
+      <div>
       </div>
               </div>
-              <div class="step skip-bg" title="com.Step_Definition.Super_admin_step.user_click_the_trust_management_button_and_navigates_to_trust_management_page()">
+              <div class="step pass-bg" title="com.Step_Definition.Super_admin_step.user_click_the_trust_management_button_and_navigates_to_trust_management_page()">
                 <span>And user click the Trust management button and navigates to trust management page</span>
-      <div>Step skipped
+      <div>
       </div>
               </div>
-              <div class="step skip-bg" title="com.Step_Definition.Super_admin_step.user_click_the_activate_button_and_confirm_pop_up_occurs()">
+              <div class="step pass-bg" title="com.Step_Definition.Super_admin_step.user_click_the_activate_button_and_confirm_pop_up_occurs()">
                 <span>And user click the activate button and confirm pop up occurs</span>
-      <div>Step skipped
+      <div>
       </div>
               </div>
-              <div class="step skip-bg" title="com.Step_Definition.Super_admin_step.user_click_yes_button_and_success_message_pop_up()">
+              <div class="step pass-bg" title="com.Step_Definition.Super_admin_step.user_click_yes_button_and_success_message_pop_up()">
                 <span>And user click Yes Button and success message pop up</span>
-      <div>Step skipped
+      <div>
       </div>
               </div>
-              <div class="step skip-bg" title="com.Step_Definition.Super_admin_step.user_click_the_current_resources_list_button_and_take_screenshots()">
+              <div class="step pass-bg" title="com.Step_Definition.Super_admin_step.user_click_the_current_resources_list_button_and_take_screenshots()">
                 <span>And user click the Current resources List button and Take screenshots</span>
-      <div>Step skipped
+      <div>
       </div>
               </div>
-              <div class="step skip-bg" title="com.Step_Definition.Super_admin_step.user_logout_trust_admin_credentials()">
+              <div class="step pass-bg" title="com.Step_Definition.Super_admin_step.user_logout_trust_admin_credentials()">
                 <span>And user logout trust admin credentials</span>
-      <div>Step skipped
+      <div>
       </div>
               </div>
           </div>
@@ -486,25 +427,25 @@ Session ID: 86389695268328c0f124e4406b456434
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="27"
+        <li class="test-item"  status="pass" test-id="27"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Trustadmin login</p>
             <p class="text-sm">
-              <span>10:38:08 AM</span> / <span>00:00:23:882</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>4:21:00 PM</span> / <span>00:01:06:020</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">Trustadmin login</h5>
-<span class='badge badge-success'>01.25.2023 10:38:08 AM</span>
-<span class='badge badge-danger'>01.25.2023 10:38:32 AM</span>
-<span class='badge badge-default'>00:00:23:882</span>
+<h5 class="test-status text-pass">Trustadmin login</h5>
+<span class='badge badge-success'>02.02.2023 4:21:00 PM</span>
+<span class='badge badge-danger'>02.02.2023 4:22:06 PM</span>
+<span class='badge badge-default'>00:01:06:020</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=27</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -516,10 +457,10 @@ Session ID: 86389695268328c0f124e4406b456434
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="28"><span class="badge log fail-bg mr-2">Fail</span>Trustadmin Login</div>
+        <div class="node" id="28"><span class="badge log pass-bg mr-2">Pass</span>Trustadmin Login</div>
       </div>
     </div>
-        <div class="">
+        <div class="collapse">
           <div class="card-body">
               <div class="step pass-bg" title="com.Step_Definition.Trust_admin_step.user_enter_the_email_address_in_user_field()">
                 <span>When user enter the email address in user field</span>
@@ -536,75 +477,44 @@ Session ID: 86389695268328c0f124e4406b456434
       <div>
       </div>
               </div>
-              <div class="step fail-bg" title="com.Step_Definition.Trust_admin_step.user_click_the_usermanagement_button_and_naviagtes_to_user_management_page()">
+              <div class="step pass-bg" title="com.Step_Definition.Trust_admin_step.user_click_the_usermanagement_button_and_naviagtes_to_user_management_page()">
                 <span>When user click the usermanagement button and naviagtes to user management page</span>
       <div>
-        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='/user-management']"}
-  (Session info: chrome=109.0.5414.75)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'POOVARASAN-LAPT', ip: '192.168.0.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\MEDIWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53779}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ad6707f11f555681e0a2d0374195c3dd
-*** Element info: {Using=xpath, value=//a[@href='/user-management']}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy21.click(Unknown Source)
-	at Amity.sample@0.0.1-SNAPSHOT/com.Lib_Global.Base_Class.btnClick(Base_Class.java:67)
-	at Amity.sample@0.0.1-SNAPSHOT/com.Step_Definition.Trust_admin_step.user_click_the_usermanagement_button_and_naviagtes_to_user_management_page(Trust_admin_step.java:38)
-	at ?.user click the usermanagement button and naviagtes to user management page(file:///C:/Users/Mediwave%20Digital/eclipse-workspace/Amity_sample/src/test/resources/Feature_File/2Trust.feature:8)
-</textarea>
-      
       </div>
               </div>
-              <div class="step skip-bg" title="com.Step_Definition.Trust_admin_step.user_click_add_user_button_and_add_a_new_user_popups()">
+              <div class="step pass-bg" title="com.Step_Definition.Trust_admin_step.user_click_add_user_button_and_add_a_new_user_popups()">
                 <span>When user click add user button and add a new user popups</span>
-      <div>Step skipped
+      <div>
       </div>
               </div>
-              <div class="step skip-bg" title="com.Step_Definition.Trust_admin_step.user_enter_the_name_and_email_address_and_click_the_creator_button()">
+              <div class="step pass-bg" title="com.Step_Definition.Trust_admin_step.user_enter_the_name_and_email_address_and_click_the_creator_button()">
                 <span>And user enter the name and email address and click the creator button</span>
-      <div>Step skipped
+      <div>
       </div>
               </div>
-              <div class="step skip-bg" title="com.Step_Definition.Trust_admin_step.user_clicks_the_create_user_button_and_success_message_pops_up()">
+              <div class="step pass-bg" title="com.Step_Definition.Trust_admin_step.user_clicks_the_create_user_button_and_success_message_pops_up()">
                 <span>And user clicks the create user button and success message pops up</span>
-      <div>Step skipped
+      <div>
       </div>
               </div>
-              <div class="step skip-bg" title="com.Step_Definition.Trust_admin_step.user_click_the_add_user_button_and_add_a_new_user_popups()">
+              <div class="step pass-bg" title="com.Step_Definition.Trust_admin_step.user_click_the_add_user_button_and_add_a_new_user_popups()">
                 <span>And user click the Add user button and add a new User popups</span>
-      <div>Step skipped
+      <div>
       </div>
               </div>
-              <div class="step skip-bg" title="com.Step_Definition.Trust_admin_step.user_enter_the_name_and_email_address_and_click_the_approver_button()">
+              <div class="step pass-bg" title="com.Step_Definition.Trust_admin_step.user_enter_the_name_and_email_address_and_click_the_approver_button()">
                 <span>And user enter the Name and Email address and Click the approver button</span>
-      <div>Step skipped
+      <div>
       </div>
               </div>
-              <div class="step skip-bg" title="com.Step_Definition.Trust_admin_step.user_click_the_create_user_button_and_success_message_pops_up()">
+              <div class="step pass-bg" title="com.Step_Definition.Trust_admin_step.user_click_the_create_user_button_and_success_message_pops_up()">
                 <span>And user click the create User button and Success message pops up</span>
-      <div>Step skipped
+      <div>
       </div>
               </div>
-              <div class="step skip-bg" title="com.Step_Definition.Trust_admin_step.user_click_the_logout_button_and_naviagtes_to_login_page()">
+              <div class="step pass-bg" title="com.Step_Definition.Trust_admin_step.user_click_the_logout_button_and_naviagtes_to_login_page()">
                 <span>Then user click the logout button and naviagtes to login page</span>
-      <div>Step skipped
+      <div>
       </div>
               </div>
           </div>
@@ -613,25 +523,25 @@ Session ID: ad6707f11f555681e0a2d0374195c3dd
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="42"
+        <li class="test-item"  status="pass" test-id="42"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Approver login</p>
+            <p class="name">Test the Approver cancel flow</p>
             <p class="text-sm">
-              <span>10:38:32 AM</span> / <span>00:00:19:190</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>4:22:06 PM</span> / <span>00:01:40:665</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">Approver login</h5>
-<span class='badge badge-success'>01.25.2023 10:38:32 AM</span>
-<span class='badge badge-danger'>01.25.2023 10:38:51 AM</span>
-<span class='badge badge-default'>00:00:19:190</span>
+<h5 class="test-status text-pass">Test the Approver cancel flow</h5>
+<span class='badge badge-success'>02.02.2023 4:22:06 PM</span>
+<span class='badge badge-danger'>02.02.2023 4:23:47 PM</span>
+<span class='badge badge-default'>00:01:40:665</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=42</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -643,11 +553,66 @@ Session ID: ad6707f11f555681e0a2d0374195c3dd
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="43"><span class="badge log fail-bg mr-2">Fail</span>Approver Login</div>
+        <div class="node" id="43"><span class="badge log pass-bg mr-2">Pass</span>Creator create and approver approve and cancel</div>
       </div>
     </div>
-        <div class="">
+        <div class="collapse">
           <div class="card-body">
+              <div class="step pass-bg" title="com.Step_Definition.Cancel_Step.user_enter_the_cretor_username_and_creatorpassword(java.lang.String,java.lang.String)">
+                <span>When user enter the cretor username "<CreatorUser>" and creatorpassword "<CreatorPassword>"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Step_Definition.Cancel_Step.user_click_the_login_button_in_creator_user()">
+                <span>And user click the Login button in creator user</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Step_Definition.Cancel_Step.user_navigate_to_resource_page_and_user_click_the_create_new_resource_option()">
+                <span>Then user navigate to resource page and user click the create new resource option</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Step_Definition.Cancel_Step.user_should_select_the_article_in_resource_type_form()">
+                <span>And user should select the article in resource type form</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Step_Definition.Cancel_Step.user_enter_the_resource_titles_and_then_user_should_select_the_topics()">
+                <span>And user enter the resource titles and then user should select the topics</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Step_Definition.Cancel_Step.user_should_select_age_groups()">
+                <span>And user should select ageGroups</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Step_Definition.Cancel_Step.user_add_the_content_links_and_click_the_save_button()">
+                <span>And user add the content links and click the save button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Step_Definition.Cancel_Step.user_enter_tag_and_click_the_list_of_current_tags()">
+                <span>And user enter tag and click the list of current tags</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Step_Definition.Cancel_Step.user_should_select_the_approver_list_and_click_the_submit_for_approval_button()">
+                <span>And user should select the approver list and click the submit for approval button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Step_Definition.Cancel_Step.user_take_screenshot_and_click_the_profile_option()">
+                <span>And user take screenshot and click the profile option</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Step_Definition.Cancel_Step.user_click_the_logout_option_in_creator()">
+                <span>And user click the logout option in creator</span>
+      <div>
+      </div>
+              </div>
               <div class="step pass-bg" title="com.Step_Definition.Cancel_Step.user_Enter_the_Email_Address_in_User_text_box()">
                 <span>When user Enter the Email Address in User text box</span>
       <div>
@@ -663,18 +628,99 @@ Session ID: ad6707f11f555681e0a2d0374195c3dd
       <div>
       </div>
               </div>
-              <div class="step fail-bg" title="com.Step_Definition.Cancel_Step.user_click_the_my_notification_button_in_dashboard_and_navigates_to_my_notifiaction()">
+              <div class="step pass-bg" title="com.Step_Definition.Cancel_Step.user_click_the_my_notification_button_in_dashboard_and_navigates_to_my_notifiaction()">
                 <span>And user click the my notification button in dashboard and navigates to my notifiaction</span>
       <div>
-        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='My notifications']"}
-  (Session info: chrome=109.0.5414.75)
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Step_Definition.Cancel_Step.user_click_the_recently_added_notification_button()">
+                <span>And user click the recently added notification button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Step_Definition.Cancel_Step.user_click_the_approve_button_and_success_message_pops_up()">
+                <span>And user click the approve button and success message pops up</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Step_Definition.Cancel_Step.user_click_the_approved_notification_button_and_navigates_to_cancel_approve_page()">
+                <span>And user click the approved notification button and navigates to cancel approve page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Step_Definition.Cancel_Step.user_click_the_cancel_approve_button_and_select_okay_button()">
+                <span>And user click the cancel approve button and select okay button</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="65"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Image insert and approver approve</p>
+            <p class="text-sm">
+              <span>4:23:47 PM</span> / <span>00:00:31:952</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Image insert and approver approve</h5>
+<span class='badge badge-success'>02.02.2023 4:23:47 PM</span>
+<span class='badge badge-danger'>02.02.2023 4:24:19 PM</span>
+<span class='badge badge-default'>00:00:31:952</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=65</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="66"><span class="badge log fail-bg mr-2">Fail</span>Test the Creator create resources insert image and approver approve, creator publish and unpublish</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_enter_the_c_user_and_c_password(java.lang.String,java.lang.String)">
+                <span>When user enter the CUser "<CreatorUser>" and CPassword "<CreatorPassword>"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_login_creator_credentials()">
+                <span>And user login creator credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_should_be_on_resource_page_and_click_the_create_new_resource_option()">
+                <span>Then user should be on resource page and click the create new resource option</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="com.Step_Definition.Resource_Page_Step.user_select_the_video_in_Resources_Type()">
+                <span>And user select the video in Resources Type</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='react-select-2-placeholder']/parent::div/parent::div"}
+  (Session info: chrome=109.0.5414.120)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'POOVARASAN-LAPT', ip: '192.168.0.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+System info: host: 'POOVARASAN-LAPT', ip: '192.168.0.233', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\MEDIWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53800}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 10d17021cd22f059f7d43e58753eccc4
-*** Element info: {Using=xpath, value=//a[normalize-space()='My notifications']}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\MEDIWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55751}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d143a0f775867374d703ec85affd5af3
+*** Element info: {Using=xpath, value=//div[@id='react-select-2-placeholder']/parent::div/parent::div}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -692,420 +738,11 @@ Session ID: 10d17021cd22f059f7d43e58753eccc4
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy21.click(Unknown Source)
-	at Amity.sample@0.0.1-SNAPSHOT/com.Lib_Global.Base_Class.btnClick(Base_Class.java:67)
-	at Amity.sample@0.0.1-SNAPSHOT/com.Step_Definition.Cancel_Step.user_click_the_my_notification_button_in_dashboard_and_navigates_to_my_notifiaction(Cancel_Step.java:36)
-	at ?.user click the my notification button in dashboard and navigates to my notifiaction(file:///C:/Users/Mediwave%20Digital/eclipse-workspace/Amity_sample/src/test/resources/Feature_File/3cancel.feature:8)
+	at Amity.sample@0.0.1-SNAPSHOT/com.Lib_Globals.Base_Class.btnClick(Base_Class.java:69)
+	at Amity.sample@0.0.1-SNAPSHOT/com.Step_Definition.Resource_Page_Step.user_select_the_video_in_Resources_Type(Resource_Page_Step.java:444)
+	at ?.user select the video in Resources Type(file:///C:/Users/Mediwave%20Digital/eclipse-workspace/Amity_sample/src/test/resources/Feature_File/Imageinsert_approve.feature:7)
 </textarea>
       
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Cancel_Step.user_click_the_recently_added_notification_button()">
-                <span>And user click the recently added notification button</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Cancel_Step.user_click_the_approve_button_and_success_message_pops_up()">
-                <span>And user click the approve button and success message pops up</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Cancel_Step.user_click_the_approved_notification_button_and_navigates_to_cancel_approve_page()">
-                <span>And user click the approved notification button and navigates to cancel approve page</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Cancel_Step.user_click_the_cancel_approve_button_and_select_okay_button()">
-                <span>And user click the cancel approve button and select okay button</span>
-      <div>Step skipped
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="54"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">Test the Resource functionality</p>
-            <p class="text-sm">
-              <span>10:38:51 AM</span> / <span>00:01:32:934</span>
-              <span class="badge fail-bg log float-right">Fail</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-fail">Test the Resource functionality</h5>
-<span class='badge badge-success'>01.25.2023 10:38:51 AM</span>
-<span class='badge badge-danger'>01.25.2023 10:40:24 AM</span>
-<span class='badge badge-default'>00:01:32:934</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=54</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-<div class="m-t-10 m-l-5"></div>
-</div>
-</div>
-<div class="accordion mt-4">
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="55"><span class="badge log fail-bg mr-2">Fail</span>Test the Creator create resources and Approver gives error message</div>
-      </div>
-    </div>
-        <div class="">
-          <div class="card-body">
-              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_enter_the_and(java.lang.String,java.lang.String)">
-                <span>When user enter the "<CreatorUser>" and "<CreatorPassword>"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_Login_button_in_creator_crendentials()">
-                <span>And user click the Login button in creator crendentials</span>
-      <div>
-      </div>
-              </div>
-              <div class="step fail-bg" title="com.Step_Definition.Resource_Page_Step.user_should_navigate_to_resource_page_and_user_click_the_create_new_resource_option()">
-                <span>Then user should navigate to resource page and user click the create new resource option</span>
-      <div>
-        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[normalize-space()='RESOURCES']"}
-  (Session info: chrome=109.0.5414.75)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'POOVARASAN-LAPT', ip: '192.168.0.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\MEDIWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53819}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 559268ffffd7ae2764809322da9aef49
-*** Element info: {Using=xpath, value=//h1[normalize-space()='RESOURCES']}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy21.getText(Unknown Source)
-	at Amity.sample@0.0.1-SNAPSHOT/com.Lib_Global.Base_Class.gettText(Base_Class.java:72)
-	at Amity.sample@0.0.1-SNAPSHOT/com.Page_Object_Model.Resources_Page.verifyResource(Resources_Page.java:296)
-	at Amity.sample@0.0.1-SNAPSHOT/com.Step_Definition.Resource_Page_Step.user_should_navigate_to_resource_page_and_user_click_the_create_new_resource_option(Resource_Page_Step.java:41)
-	at ?.user should navigate to resource page and user click the create new resource option(file:///C:/Users/Mediwave%20Digital/eclipse-workspace/Amity_sample/src/test/resources/Feature_File/Resource_Page.feature:6)
-</textarea>
-      
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_should_select_the_article_in_resource_type()">
-                <span>And user should select the article in resource type</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_enter_the_resource_title_and_then_user_should_select_the_topic()">
-                <span>And user enter the resource title and then user should select the topic</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_should_select_the_ageGroup()">
-                <span>And user should select the ageGroup</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_add_the_content_link_and_then_click_the_save_button()">
-                <span>And user add the content link and then click the save button</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_enter_tags_and_then_click_the_list_of_current_tags()">
-                <span>And user enter tags and then click the list of current tags</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_publisher_option()">
-                <span>And user click the publisher option</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_should_select_the_approvers_list_and_then_click_the_submit_for_approval_button()">
-                <span>And user should select the approvers list and then click the submit for approval button</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_take_screenshot_and_then_click_the_profile_option()">
-                <span>And user take screenshot and then click the profile option</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_logout_option_in_creator_crendentials()">
-                <span>And user click the logout option in creator crendentials</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_should_enters_the_ApprovaerEmail_and_ApproverPassword(java.lang.String,java.lang.String)">
-                <span>And user should enters the ApprovaerEmail "<ApproverUser>" and ApproverPassword"<ApproverPass>"</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_Login_button_and_then_click_the_my_Notification_option()">
-                <span>And user click the Login button and then click the my Notification option</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_newly_added_resources_name()">
-                <span>And user click the newly added resources name</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_flag_for_review_button_and_then_enter_notes_after_click_the_submit_button()">
-                <span>And user click the flag for review button and then enter notes after click the submit button</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_should_take_screenshot_and_then_click_the_profile_option()">
-                <span>And user should take screenshot and then click the profile option</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_logout_option_in_approver_credentials()">
-                <span>And user click the logout option in approver credentials</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_enter_the_and_and_then_user_click_the_Login_button(java.lang.String,java.lang.String)">
-                <span>When user enter the "<CreatorUser>" and "<CreatorPassword>" and then user click the Login button</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_my_notification_button_in_creator_login_and_then_user_take_screenshot()">
-                <span>And user click the my notification button in creator login and then user take screenshot</span>
-      <div>Step skipped
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="78"><span class="badge log fail-bg mr-2">Fail</span>Test the Creator create resources and Approver approve and then publish</div>
-      </div>
-    </div>
-        <div class="">
-          <div class="card-body">
-              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_enter_the_and(java.lang.String,java.lang.String)">
-                <span>When user enter the "<CreatorUser>" and "<CreatorPassword>"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_Login_button_in_creator_crendentials()">
-                <span>And user click the Login button in creator crendentials</span>
-      <div>
-      </div>
-              </div>
-              <div class="step fail-bg" title="com.Step_Definition.Resource_Page_Step.user_should_navigate_to_resource_page_and_user_click_the_create_new_resource_option()">
-                <span>Then user should navigate to resource page and user click the create new resource option</span>
-      <div>
-        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[normalize-space()='RESOURCES']"}
-  (Session info: chrome=109.0.5414.75)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'POOVARASAN-LAPT', ip: '192.168.0.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\MEDIWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53838}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 595ee10a9bc512520019f2e56287a404
-*** Element info: {Using=xpath, value=//h1[normalize-space()='RESOURCES']}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy21.getText(Unknown Source)
-	at Amity.sample@0.0.1-SNAPSHOT/com.Lib_Global.Base_Class.gettText(Base_Class.java:72)
-	at Amity.sample@0.0.1-SNAPSHOT/com.Page_Object_Model.Resources_Page.verifyResource(Resources_Page.java:296)
-	at Amity.sample@0.0.1-SNAPSHOT/com.Step_Definition.Resource_Page_Step.user_should_navigate_to_resource_page_and_user_click_the_create_new_resource_option(Resource_Page_Step.java:41)
-	at ?.user should navigate to resource page and user click the create new resource option(file:///C:/Users/Mediwave%20Digital/eclipse-workspace/Amity_sample/src/test/resources/Feature_File/Resource_Page.feature:6)
-</textarea>
-      
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_should_select_the_video_in_Resources_Type()">
-                <span>And user should  select the video in Resources Type</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_should_enter_the_resource_title_and_then_user_should_select_the_topic()">
-                <span>And user should  enter the resource title and then user should select the topic</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_select_the_ageGroup()">
-                <span>And user select the ageGroup</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_enter_the_video_caption_and_then_user_click_the_video_source(java.lang.String)">
-                <span>And user enter the video caption "<caption>" and then user click the video source</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_add_the_video_content_link_in_creator_page_and_then_click_the_save_button()">
-                <span>And user add the  video content link in creator page and then click the save button</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_enter_tags_and_then_click_the_list_of_current_tags_in_that_click_add_tag_button()">
-                <span>And user enter tags and then click the list of current tags in that click add tag button</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_should_click_the_publisher_option()">
-                <span>And user should click the publisher option</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_select_the_approvers_list_and_then_click_the_submit_for_approval_button()">
-                <span>And user select the approvers list and then click the submit for approval button</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_take_screenshot_and_then_click_profile_option()">
-                <span>And user take screenshot and then click profile option</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_logout_option_in_creator_credentials()">
-                <span>And user click the logout option in creator credentials</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_should_enter_the_ApproverEmailAddress_and_ApproverPassword_in_approvers_credentials(java.lang.String,java.lang.String)">
-                <span>And user should enter the ApproverEmailAddress "<ApproverUser>" and ApproverPassword"<ApproverPass>" in approvers credentials</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_Login_button_in_approver_credentials_and_user_click_the_Mynotification()">
-                <span>And user click the Login button in approver credentials and user click the Mynotification</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_newly_added_resources_and_then_click_the_approve_button()">
-                <span>And user click the newly added resources and then click the approve button</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.users_click_the_profile_and_users_click_logout_button_in_approver_credentials()">
-                <span>And users click the profile and users click logout button in approver credential</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_should_enters_the_creator_credential_and_and_login_the_creator_page(java.lang.String,java.lang.String)">
-                <span>And user should enters the creator credential "<CreatorUser>" and  "<CreatorPassword>" and login the creator page</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_my_Notification_by_creater_in_that_user_click_the_newly_added_resource()">
-                <span>And user click the my Notification by creater in that user click the newly added resource</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_publish_button_in_creator_credentials()">
-                <span>And user click the publish button in creator credentials</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_cick_newest_one_and_also_click_unpublish()">
-                <span>And user cick newest one and also click unpublish</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_logout_the_creator_credentials()">
-                <span>And user logout the creator credentials</span>
-      <div>Step skipped
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="103"><span class="badge log fail-bg mr-2">Fail</span>Test the Creator create resources insert image and approver approve, creator publish and unpublish</div>
-      </div>
-    </div>
-        <div class="">
-          <div class="card-body">
-              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_enter_the_and(java.lang.String,java.lang.String)">
-                <span>When user enter the "<CreatorUser>" and "<CreatorPassword>"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_Login_button_in_creator_crendentials()">
-                <span>And user click the Login button in creator crendentials</span>
-      <div>
-      </div>
-              </div>
-              <div class="step fail-bg" title="com.Step_Definition.Resource_Page_Step.user_should_navigate_to_resource_page_and_user_click_the_create_new_resource_option()">
-                <span>Then user should navigate to resource page and user click the create new resource option</span>
-      <div>
-        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[normalize-space()='RESOURCES']"}
-  (Session info: chrome=109.0.5414.75)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'POOVARASAN-LAPT', ip: '192.168.0.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\MEDIWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53857}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 59d2834a5658afed6f119281a9984c32
-*** Element info: {Using=xpath, value=//h1[normalize-space()='RESOURCES']}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy21.getText(Unknown Source)
-	at Amity.sample@0.0.1-SNAPSHOT/com.Lib_Global.Base_Class.gettText(Base_Class.java:72)
-	at Amity.sample@0.0.1-SNAPSHOT/com.Page_Object_Model.Resources_Page.verifyResource(Resources_Page.java:296)
-	at Amity.sample@0.0.1-SNAPSHOT/com.Step_Definition.Resource_Page_Step.user_should_navigate_to_resource_page_and_user_click_the_create_new_resource_option(Resource_Page_Step.java:41)
-	at ?.user should navigate to resource page and user click the create new resource option(file:///C:/Users/Mediwave%20Digital/eclipse-workspace/Amity_sample/src/test/resources/Feature_File/Resource_Page.feature:6)
-</textarea>
-      
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_select_the_video_in_Resources_Type()">
-                <span>And user select the video in Resources Type</span>
-      <div>Step skipped
       </div>
               </div>
               <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_should_enter_the_resource_title_and_user_should_select_the_Topic()">
@@ -1130,11 +767,6 @@ Session ID: 59d2834a5658afed6f119281a9984c32
               </div>
               <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_enter_the_tags()">
                 <span>And user enter the tags</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_should_click_the_publisher_button()">
-                <span>And user should click the publisher button</span>
       <div>Step skipped
       </div>
               </div>
@@ -1204,6 +836,348 @@ Session ID: 59d2834a5658afed6f119281a9984c32
 </div>
           </div>
         </li>
+        <li class="test-item"  status="fail" test-id="90"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Approver give flag for review flow</p>
+            <p class="text-sm">
+              <span>4:24:19 PM</span> / <span>00:00:38:585</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Approver give flag for review flow</h5>
+<span class='badge badge-success'>02.02.2023 4:24:19 PM</span>
+<span class='badge badge-danger'>02.02.2023 4:24:57 PM</span>
+<span class='badge badge-default'>00:00:38:585</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=90</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="91"><span class="badge log fail-bg mr-2">Fail</span>Test the Creator create resources and Approver gives error message</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_enter_the_and(java.lang.String,java.lang.String)">
+                <span>When user enter the "<CreatorUser>" and "<CreatorPassword>"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_Login_button_in_creator_crendentials()">
+                <span>And user click the Login button in creator crendentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_should_navigate_to_resource_page_and_user_click_the_create_new_resource_option()">
+                <span>Then user should navigate to resource page and user click the create new resource option</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="com.Step_Definition.Resource_Page_Step.user_should_select_the_article_in_resource_type()">
+                <span>And user should select the article in resource type</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='react-select-2-placeholder']/parent::div/parent::div"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POOVARASAN-LAPT', ip: '192.168.0.233', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\MEDIWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7213d254aa8cded39e87d613f03b9028
+*** Element info: {Using=xpath, value=//div[@id='react-select-2-placeholder']/parent::div/parent::div}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy21.click(Unknown Source)
+	at Amity.sample@0.0.1-SNAPSHOT/com.Lib_Globals.Base_Class.btnClick(Base_Class.java:69)
+	at Amity.sample@0.0.1-SNAPSHOT/com.Step_Definition.Resource_Page_Step.user_should_select_the_article_in_resource_type(Resource_Page_Step.java:49)
+	at ?.user should select the article in resource type(file:///C:/Users/Mediwave%20Digital/eclipse-workspace/Amity_sample/src/test/resources/Feature_File/Not_Approve.feature:7)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_enter_the_resource_title_and_then_user_should_select_the_topic()">
+                <span>And user enter the resource title and then user should select the topic</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_should_select_the_ageGroup()">
+                <span>And user should select the ageGroup</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_add_the_content_link_and_then_click_the_save_button()">
+                <span>And user add the content link and then click the save button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_enter_tags_and_then_click_the_list_of_current_tags()">
+                <span>And user enter tags and then click the list of current tags</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_should_select_the_approvers_list_and_then_click_the_submit_for_approval_button()">
+                <span>And user should select the approvers list and then click the submit for approval button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_take_screenshot_and_then_click_the_profile_option()">
+                <span>And user take screenshot and then click the profile option</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_logout_option_in_creator_crendentials()">
+                <span>And user click the logout option in creator crendentials</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_should_enters_the_ApprovaerEmail_and_ApproverPassword(java.lang.String,java.lang.String)">
+                <span>And user should enters the ApprovaerEmail "<ApproverUser>" and ApproverPassword"<ApproverPass>"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_Login_button_and_then_click_the_my_Notification_option()">
+                <span>And user click the Login button and then click the my Notification option</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_newly_added_resources_name()">
+                <span>And user click the newly added resources name</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_flag_for_review_button_and_then_enter_notes_after_click_the_submit_button()">
+                <span>And user click the flag for review button and then enter notes after click the submit button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_should_take_screenshot_and_then_click_the_profile_option()">
+                <span>And user should take screenshot and then click the profile option</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_logout_option_in_approver_credentials()">
+                <span>And user click the logout option in approver credentials</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_enter_the_and_and_then_user_click_the_Login_button(java.lang.String,java.lang.String)">
+                <span>When user enter the "<CreatorUser>" and "<CreatorPassword>" and then user click the Login button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_my_notification_button_in_creator_login_and_then_user_take_screenshot()">
+                <span>And user click the my notification button in creator login and then user take screenshot</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="113"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Approver approve and creator publish and unpublish flow</p>
+            <p class="text-sm">
+              <span>4:24:57 PM</span> / <span>00:01:01:398</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Approver approve and creator publish and unpublish flow</h5>
+<span class='badge badge-success'>02.02.2023 4:24:57 PM</span>
+<span class='badge badge-danger'>02.02.2023 4:25:59 PM</span>
+<span class='badge badge-default'>00:01:01:398</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=113</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="114"><span class="badge log fail-bg mr-2">Fail</span>Test the Creator create resources and Approver approve and then publish</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_enter_c_cusername_and_c_cpassword(java.lang.String,java.lang.String)">
+                <span>When user enter CCusername "<CreatorUser>" and CCpassword "<CreatorPassword>"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.click_login_for_content_creator_credentials()">
+                <span>And Click login for Content creator credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_navigate_resource_page_and_click_the_create_new_resource_option()">
+                <span>Then user navigate resource page and click the create new resource option</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="com.Step_Definition.Resource_Page_Step.user_should_select_the_video_in_Resources_Type()">
+                <span>And user should  select the video in Resources Type</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (501, 931)
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'POOVARASAN-LAPT', ip: '192.168.0.233', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\MEDIWA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55830}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b16eca71232a025cfb3a01c5eae19c5
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor46.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy21.click(Unknown Source)
+	at Amity.sample@0.0.1-SNAPSHOT/com.Lib_Globals.Base_Class.btnClick(Base_Class.java:69)
+	at Amity.sample@0.0.1-SNAPSHOT/com.Step_Definition.Resource_Page_Step.user_should_select_the_video_in_Resources_Type(Resource_Page_Step.java:225)
+	at ?.user should  select the video in Resources Type(file:///C:/Users/Mediwave%20Digital/eclipse-workspace/Amity_sample/src/test/resources/Feature_File/Publish_unpublish.feature:7)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_should_enter_the_resource_title_and_then_user_should_select_the_topic()">
+                <span>And user should  enter the resource title and then user should select the topic</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_select_the_ageGroup()">
+                <span>And user select the ageGroup</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_enter_the_video_caption_and_then_user_click_the_video_source(java.lang.String)">
+                <span>And user enter the video caption "<caption>" and then user click the video source</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_add_the_video_content_link_in_creator_page_and_then_click_the_save_button()">
+                <span>And user add the  video content link in creator page and then click the save button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_enter_tags_and_then_click_the_list_of_current_tags_in_that_click_add_tag_button()">
+                <span>And user enter tags and then click the list of current tags in that click add tag button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_select_the_approvers_list_and_then_click_the_submit_for_approval_button()">
+                <span>And user select the approvers list and then click the submit for approval button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_take_screenshot_and_then_click_profile_option()">
+                <span>And user take screenshot and then click profile option</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_logout_option_in_creator_credentials()">
+                <span>And user click the logout option in creator credentials</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_should_enter_the_ApproverEmailAddress_and_ApproverPassword_in_approvers_credentials(java.lang.String,java.lang.String)">
+                <span>And user should enter the ApproverEmailAddress "<ApproverUser>" and ApproverPassword"<ApproverPass>" in approvers credentials</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_Login_button_in_approver_credentials_and_user_click_the_Mynotification()">
+                <span>And user click the Login button in approver credentials and user click the Mynotification</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_newly_added_resources_and_then_click_the_approve_button()">
+                <span>And user click the newly added resources and then click the approve button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.users_click_the_profile_and_users_click_logout_button_in_approver_credentials()">
+                <span>And users click the profile and users click logout button in approver credential</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_should_enters_the_creator_credential_and_and_login_the_creator_page(java.lang.String,java.lang.String)">
+                <span>And user should enters the creator credential "<CreatorUser>" and  "<CreatorPassword>" and login the creator page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_my_Notification_by_creater_in_that_user_click_the_newly_added_resource()">
+                <span>And user click the my Notification by creater in that user click the newly added resource</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_publish_button_in_creator_credentials()">
+                <span>And user click the publish button in creator credentials</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_cick_newest_one_and_also_click_unpublish()">
+                <span>And user cick newest one and also click unpublish</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.Step_Definition.Resource_Page_Step.user_logout_the_creator_credentials()">
+                <span>And user logout the creator credentials</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
       </ul>
     </div>
   </div>
@@ -1224,15 +1198,15 @@ Session ID: 59d2834a5658afed6f119281a9984c32
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log badge-danger'>1</span>
+<span class='badge log pass-bg'>1</span>
 </span>
-<p class="name">@Super_Admin1</p>
+<p class="name">@cancel</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>@Super_Admin1</h4>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
+<h4>@cancel</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -1243,9 +1217,45 @@ Session ID: 59d2834a5658afed6f119281a9984c32
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>10:37:56 AM</td>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:22:06 PM</td>
+<td>
+<a href="#" class="linked" test-id='42' id='43'>Creator create and approver approve and cancel</a>
+<div class="">
+<span class="badge badge-default">Test the Approver cancel flow.Creator create and approver approve and cancel</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@Super_Admin1</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Super_Admin1</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:19:58 PM</td>
 <td>
 <a href="#" class="linked" test-id='1' id='13'>Systemadmin credentials deactivate and activate</a>
 <div class="">
@@ -1260,7 +1270,7 @@ Session ID: 59d2834a5658afed6f119281a9984c32
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log badge-danger'>1</span>
+<span class='badge log pass-bg'>1</span>
 </span>
 <p class="name">@trust</p>
 <p class="duration text-sm">1 tests</p>
@@ -1268,7 +1278,7 @@ Session ID: 59d2834a5658afed6f119281a9984c32
 <div class="test-contents d-none">
 <div class="info">
 <h4>@trust</h4>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -1279,49 +1289,13 @@ Session ID: 59d2834a5658afed6f119281a9984c32
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>10:38:08 AM</td>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:21:00 PM</td>
 <td>
 <a href="#" class="linked" test-id='27' id='28'>Trustadmin Login</a>
 <div class="">
 <span class="badge badge-default">Trustadmin login.Trustadmin Login</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log badge-danger'>1</span>
-</span>
-<p class="name">@cancel</p>
-<p class="duration text-sm">1 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>@cancel</h4>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>10:38:32 AM</td>
-<td>
-<a href="#" class="linked" test-id='42' id='43'>Approver Login</a>
-<div class="">
-<span class="badge badge-default">Approver login.Approver Login</span>
 </div>
 </td>
 </tr>
@@ -1350,12 +1324,12 @@ Session ID: 59d2834a5658afed6f119281a9984c32
 <span class="meta">
 <span class='badge log badge-danger'>2</span>
 </span>
-<p class="name">org.openqa.selenium.ElementClickInterceptedException</p>
+<p class="name">org.openqa.selenium.NoSuchElementException</p>
 <p class="duration text-sm">2 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>org.openqa.selenium.ElementClickInterceptedException</h4>
+<h4>org.openqa.selenium.NoSuchElementException</h4>
 <span status="fail" class='badge log badge-danger'>2 failed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -1369,21 +1343,21 @@ Session ID: 59d2834a5658afed6f119281a9984c32
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>10:37:54 AM</td>
+<td>16:24:13 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='11'>And user logout super admin credentials</a>
+<a href="#" class="linked" test-id='65' id='71'>And user select the video in Resources Type</a>
 <div class="">
-<span class="badge badge-default">This is Resources create feature.This is Superadmin credentials in that create systemadmin user.And user logout super admin credentials</span>
+<span class="badge badge-default">Image insert and approver approve.Test the Creator create resources insert image and approver approve, creator publish and unpublish.And user select the video in Resources Type</span>
 </div>
 </td>
 </tr>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>10:38:06 AM</td>
+<td>16:24:51 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='18'>When user click the deactivate button and confirm pop up occurs</a>
+<a href="#" class="linked" test-id='90' id='96'>And user should select the article in resource type</a>
 <div class="">
-<span class="badge badge-default">This is Resources create feature.Systemadmin credentials deactivate and activate.When user click the deactivate button and confirm pop up occurs</span>
+<span class="badge badge-default">Approver give flag for review flow.Test the Creator create resources and Approver gives error message.And user should select the article in resource type</span>
 </div>
 </td>
 </tr>
@@ -1394,15 +1368,15 @@ Session ID: 59d2834a5658afed6f119281a9984c32
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log badge-danger'>5</span>
+<span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">org.openqa.selenium.NoSuchElementException</p>
-<p class="duration text-sm">5 tests</p>
+<p class="name">org.openqa.selenium.ElementClickInterceptedException</p>
+<p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>org.openqa.selenium.NoSuchElementException</h4>
-<span status="fail" class='badge log badge-danger'>5 failed</span>
+<h4>org.openqa.selenium.ElementClickInterceptedException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -1415,51 +1389,11 @@ Session ID: 59d2834a5658afed6f119281a9984c32
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>10:38:21 AM</td>
+<td>16:25:51 PM</td>
 <td>
-<a href="#" class="linked" test-id='27' id='33'>When user click the usermanagement button and naviagtes to user management page</a>
+<a href="#" class="linked" test-id='113' id='119'>And user should select the video in Resources Type</a>
 <div class="">
-<span class="badge badge-default">Trustadmin login.Trustadmin Login.When user click the usermanagement button and naviagtes to user management page</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>10:38:40 AM</td>
-<td>
-<a href="#" class="linked" test-id='42' id='48'>And user click the my notification button in dashboard and navigates to my notifiaction</a>
-<div class="">
-<span class="badge badge-default">Approver login.Approver Login.And user click the my notification button in dashboard and navigates to my notifiaction</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>10:38:59 AM</td>
-<td>
-<a href="#" class="linked" test-id='54' id='59'>Then user should navigate to resource page and user click the create new resource option</a>
-<div class="">
-<span class="badge badge-default">Test the Resource functionality.Test the Creator create resources and Approver gives error message.Then user should navigate to resource page and user click the create new resource option</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>10:39:31 AM</td>
-<td>
-<a href="#" class="linked" test-id='54' id='82'>Then user should navigate to resource page and user click the create new resource option</a>
-<div class="">
-<span class="badge badge-default">Test the Resource functionality.Test the Creator create resources and Approver approve and then publish.Then user should navigate to resource page and user click the create new resource option</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>10:40:03 AM</td>
-<td>
-<a href="#" class="linked" test-id='54' id='107'>Then user should navigate to resource page and user click the create new resource option</a>
-<div class="">
-<span class="badge badge-default">Test the Resource functionality.Test the Creator create resources insert image and approver approve, creator publish and unpublish.Then user should navigate to resource page and user click the create new resource option</span>
+<span class="badge badge-default">Approver approve and creator publish and unpublish flow.Test the Creator create resources and Approver approve and then publish.And user should select the video in Resources Type</span>
 </div>
 </td>
 </tr>

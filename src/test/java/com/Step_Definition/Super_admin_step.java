@@ -1,7 +1,7 @@
 package com.Step_Definition;
 
 import com.Configuration_Reader.FileReaderManager;
-import com.Lib_Global.Base_Class;
+import com.Lib_Globals.Base_Class;
 import com.Single_Ton.Single_Ton_Design;
 
 import io.cucumber.java.en.Then;
@@ -106,8 +106,9 @@ public class Super_admin_step extends Base_Class {
 	@When("user click the current resources list button and take screenshot")
 	public void user_click_the_current_resources_list_button_and_take_screenshot() throws Throwable {
 		btnClick(si.getSystem_Admin().getList());
-		sleep(3000);
+		sleep(4000);
 		screenshotPage("Deactivate current resource list");
+		sleep(2000);
 	}
 
 	@When("user click the Trust management button and navigates to trust management page")

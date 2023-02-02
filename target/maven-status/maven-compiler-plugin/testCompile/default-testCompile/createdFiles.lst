@@ -1,0 +1,5 @@
+com\Step_Definition\Cancel_Step.class
+com\Step_Definition\Trust_admin_step.class
+com\Step_Definition\Resource_Page_Step.class
+com\Step_Definition\Hooks_Class.class
+com\Step_Definition\Super_admin_step.class

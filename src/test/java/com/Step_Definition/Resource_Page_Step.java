@@ -7,7 +7,7 @@ import java.awt.event.KeyEvent;
 import java.io.IOException;
 
 import com.Configuration_Reader.FileReaderManager;
-import com.Lib_Global.Base_Class;
+import com.Lib_Globals.Base_Class;
 import com.Single_Ton.Single_Ton_Design;
 
 import io.cucumber.java.en.Then;
@@ -41,30 +41,26 @@ public class Resource_Page_Step extends Base_Class {
 		si.getResources_Page().verifyResource();
 		wait(5);
 		btnClick(si.getResources_Page().getCreate_New_Resources());
-		sleep(2000);
+		sleep(5000);
 	}
 
 	@Then("user should select the article in resource type")
 	public void user_should_select_the_article_in_resource_type() throws Throwable {
 		btnClick(si.getResources_Page().getResources_Type());
 		sleep(2000);
-//		selectbyVissibleText(si.getResources_Page().getResources_Type(), "Articles");
-		si.getResources_Page().robotCl();
-		si.getResources_Page().robotClass();
+		btnClick(si.getResources_Page().getArticlesTag());
+		sleep(2000);
 	}
 
 	@Then("user enter the resource title and then user should select the topic")
 	public void user_enter_the_resource_title_and_then_user_should_select_the_topic() throws Throwable {
-
-		sleep(2000);
 		String resource_title = FileReaderManager.getInstanceFRM().getInstanceCR().getResource_title();
 		enterText(si.getResources_Page().getResource_Title(), resource_title);
 		jsScrollDownElement(si.getResources_Page().getTopics());
 		sleep(3000);
 		btnClick(si.getResources_Page().getTopics());
 		sleep(2000);
-		si.getResources_Page().robotCl();
-		si.getResources_Page().robotClass();
+		btnClick(si.getResources_Page().getCancerTag());
 		sleep(3000);
 	}
 
@@ -72,8 +68,7 @@ public class Resource_Page_Step extends Base_Class {
 	public void user_should_select_the_ageGroup() throws Throwable {
 		btnClick(si.getResources_Page().getAge_Group());
 		sleep(2000);
-		si.getResources_Page().robotCl();
-		si.getResources_Page().robotClass();
+		btnClick(si.getResources_Page().getAdulttag());
 		sleep(3000);
 	}
 
@@ -226,10 +221,9 @@ public class Resource_Page_Step extends Base_Class {
 	@Then("user should  select the video in Resources Type")
 	public void user_should_select_the_video_in_Resources_Type() throws Throwable {
 		btnClick(si.getResources_Page().getResources_Type());
-		sleep(4000);
-		si.getResources_Page().robotClass1();
-		wait(10);
-		si.getResources_Page().robotClass();
+		sleep(5000);
+		btnClick(si.getResources_Page().getVideoTag());
+		sleep(2000);
 	}
 
 	@Then("user should  enter the resource title and then user should select the topic")
@@ -240,16 +234,15 @@ public class Resource_Page_Step extends Base_Class {
 		sleep(2000);
 		btnClick(si.getResources_Page().getTopics());
 		sleep(2000);
-		si.getResources_Page().robotCl();
-		si.getResources_Page().robotClass();
+		btnClick(si.getResources_Page().getDiabetesTag());
+		sleep(2000);
 	}
 
 	@Then("user select the ageGroup")
 	public void user_select_the_ageGroup() throws Throwable {
 		btnClick(si.getResources_Page().getAge_Group());
 		sleep(2000);
-		si.getResources_Page().robotCl();
-		si.getResources_Page().robotClass();
+		btnClick(si.getResources_Page().getAdulttag());
 		sleep(2000);
 	}
 
@@ -450,9 +443,8 @@ public class Resource_Page_Step extends Base_Class {
 	public void user_select_the_video_in_Resources_Type() throws Throwable {
 		btnClick(si.getResources_Page().getResources_Type());
 		sleep(4000);
-		si.getResources_Page().robotClass1();
-		wait(10);
-		si.getResources_Page().robotClass();
+		btnClick(si.getResources_Page().getVideoTag());
+		sleep(2000);
 	}
 
 	@Then("user should enter the resource title and user should select the Topic")
@@ -463,16 +455,15 @@ public class Resource_Page_Step extends Base_Class {
 		wait(10);
 		btnClick(si.getResources_Page().getTopics());
 		sleep(2000);
-		si.getResources_Page().robotCl();
-		si.getResources_Page().robotClass();
+		btnClick(si.getResources_Page().getCancerTag());
+		sleep(2000);
 	}
 
 	@Then("user select ageGroup")
 	public void user_select_ageGroup() throws Throwable {
 		btnClick(si.getResources_Page().getAge_Group());
 		sleep(2000);
-		si.getResources_Page().robotCl();
-		si.getResources_Page().robotClass();
+		btnClick(si.getResources_Page().getAdulttag());
 		sleep(2000);
 	}
 
@@ -656,6 +647,56 @@ public class Resource_Page_Step extends Base_Class {
 	@Then("user should take screenshot for present creator")
 	public void user_should_take_screenshot_for_present_creator() throws Throwable {
 		screenshotPage("Published Resources");
+	}
+
+	@When("user enter the CUser {string} and CPassword {string}")
+	public void user_enter_the_c_user_and_c_password(String string, String string2) throws Throwable {
+		String emailaddress = FileReaderManager.getInstanceFRM().getInstanceCR().getCreatermail();
+		enterText(si.getResources_Page().getEmailAddress(), emailaddress);
+
+		String getpassword = FileReaderManager.getInstanceFRM().getInstanceCR().getCreatorPassword();
+		enterText(si.getResources_Page().getPassword(), getpassword);
+
+	}
+
+	@When("user login creator credentials")
+	public void user_login_creator_credentials() throws Throwable {
+		btnClick(si.getResources_Page().getLogin());
+		System.out.println("Content creator login successfully");
+		sleep(2000);
+	}
+
+	@Then("user should be on resource page and click the create new resource option")
+	public void user_should_be_on_resource_page_and_click_the_create_new_resource_option() throws Throwable {
+		si.getResources_Page().verifyResource();
+		wait(5);
+		btnClick(si.getResources_Page().getCreate_New_Resources());
+		sleep(10000);
+	}
+
+	@When("user enter CCusername {string} and CCpassword {string}")
+	public void user_enter_c_cusername_and_c_cpassword(String string, String string2) throws Throwable {
+		String emailaddress = FileReaderManager.getInstanceFRM().getInstanceCR().getCreatermail();
+		enterText(si.getResources_Page().getEmailAddress(), emailaddress);
+
+		String getpassword = FileReaderManager.getInstanceFRM().getInstanceCR().getCreatorPassword();
+		enterText(si.getResources_Page().getPassword(), getpassword);
+
+	}
+
+	@When("Click login for Content creator credentials")
+	public void click_login_for_content_creator_credentials() throws Throwable {
+		btnClick(si.getResources_Page().getLogin());
+		System.out.println("Content creator login successfully");
+		sleep(2000);
+	}
+
+	@Then("user navigate resource page and click the create new resource option")
+	public void user_navigate_resource_page_and_click_the_create_new_resource_option() throws Throwable {
+		si.getResources_Page().verifyResource();
+		wait(5);
+		btnClick(si.getResources_Page().getCreate_New_Resources());
+		sleep(10000);
 	}
 
 }

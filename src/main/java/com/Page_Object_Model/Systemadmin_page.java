@@ -4,7 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.Lib_Global.Base_Class;
+import com.Lib_Globals.Base_Class;
 
 public class Systemadmin_page extends Base_Class {
 

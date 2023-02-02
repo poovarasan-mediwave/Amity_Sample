@@ -1,11 +1,11 @@
-# Created at 2023-01-24T22:32:26.103
+# Created at 2023-02-01T21:48:57.637
 Exiting self fork JVM. Received SHUTDOWN command from Maven shutdown hook.
-Thread dump before exiting the process (7584@Poovarasan-laptop):
+Thread dump before exiting the process (3180@Poovarasan-laptop):
 "main" 
    java.lang.Thread.State: TIMED_WAITING
         at java.base@11.0.9/java.lang.Thread.sleep(Native Method)
         at app/Amity.sample@0.0.1-SNAPSHOT/com.Lib_Global.Base_Class.sleep(Base_Class.java:91)
-        at app/Amity.sample@0.0.1-SNAPSHOT/com.Step_Definition.Super_admin_step.user_clicks_login_button_in_super_admin(Super_admin_step.java:32)
+        at app/Amity.sample@0.0.1-SNAPSHOT/com.Step_Definition.Trust_admin_step.user_click_the_login_button_and_it_navigates_to_current_resource_list_page(Trust_admin_step.java:33)
         at java.base@11.0.9/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
         at java.base@11.0.9/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
         at java.base@11.0.9/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -90,15 +90,6 @@ Thread dump before exiting the process (7584@Poovarasan-laptop):
         at app//org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:388)
         at java.base@11.0.9/java.lang.Thread.run(Thread.java:834)
 
-"Exec Default Executor" 
-   java.lang.Thread.State: RUNNABLE
-        at java.base@11.0.9/java.lang.ProcessImpl.waitForInterruptibly(Native Method)
-        at java.base@11.0.9/java.lang.ProcessImpl.waitFor(ProcessImpl.java:542)
-        at app//org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:364)
-        at app//org.apache.commons.exec.DefaultExecutor.access$200(DefaultExecutor.java:48)
-        at app//org.apache.commons.exec.DefaultExecutor$1.run(DefaultExecutor.java:200)
-        at java.base@11.0.9/java.lang.Thread.run(Thread.java:834)
-
 "UrlChecker-2" 
    java.lang.Thread.State: TIMED_WAITING
         at java.base@11.0.9/jdk.internal.misc.Unsafe.park(Native Method)
@@ -109,6 +100,39 @@ Thread dump before exiting the process (7584@Poovarasan-laptop):
         at java.base@11.0.9/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1053)
         at java.base@11.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
         at java.base@11.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base@11.0.9/java.lang.Thread.run(Thread.java:834)
+
+"OkHttp ConnectionPool" 
+   java.lang.Thread.State: TIMED_WAITING
+        at java.base@11.0.9/java.lang.Object.wait(Native Method)
+        at java.base@11.0.9/java.lang.Object.wait(Object.java:462)
+        at app//okhttp3.ConnectionPool$1.run(ConnectionPool.java:67)
+        at java.base@11.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base@11.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base@11.0.9/java.lang.Thread.run(Thread.java:834)
+
+"Okio Watchdog" 
+   java.lang.Thread.State: TIMED_WAITING
+        at java.base@11.0.9/java.lang.Object.wait(Native Method)
+        at java.base@11.0.9/java.lang.Object.wait(Object.java:462)
+        at app//okio.AsyncTimeout.awaitTimeout(AsyncTimeout.java:361)
+        at app//okio.AsyncTimeout$Watchdog.run(AsyncTimeout.java:312)
+
+"Java2D Disposer" 
+   java.lang.Thread.State: WAITING
+        at java.base@11.0.9/java.lang.Object.wait(Native Method)
+        at java.base@11.0.9/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+        at java.base@11.0.9/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+        at java.desktop@11.0.9/sun.java2d.Disposer.run(Disposer.java:144)
+        at java.base@11.0.9/java.lang.Thread.run(Thread.java:834)
+
+"Exec Default Executor" 
+   java.lang.Thread.State: RUNNABLE
+        at java.base@11.0.9/java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+        at java.base@11.0.9/java.lang.ProcessImpl.waitFor(ProcessImpl.java:542)
+        at app//org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:364)
+        at app//org.apache.commons.exec.DefaultExecutor.access$200(DefaultExecutor.java:48)
+        at app//org.apache.commons.exec.DefaultExecutor$1.run(DefaultExecutor.java:200)
         at java.base@11.0.9/java.lang.Thread.run(Thread.java:834)
 
 "Exec Stream Pumper" 
@@ -128,22 +152,6 @@ Thread dump before exiting the process (7584@Poovarasan-laptop):
         at java.base@11.0.9/java.io.FileInputStream.read(FileInputStream.java:257)
         at app//org.apache.commons.exec.StreamPumper.run(StreamPumper.java:107)
         at java.base@11.0.9/java.lang.Thread.run(Thread.java:834)
-
-"OkHttp ConnectionPool" 
-   java.lang.Thread.State: TIMED_WAITING
-        at java.base@11.0.9/java.lang.Object.wait(Native Method)
-        at java.base@11.0.9/java.lang.Object.wait(Object.java:462)
-        at app//okhttp3.ConnectionPool$1.run(ConnectionPool.java:67)
-        at java.base@11.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-        at java.base@11.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-        at java.base@11.0.9/java.lang.Thread.run(Thread.java:834)
-
-"Okio Watchdog" 
-   java.lang.Thread.State: TIMED_WAITING
-        at java.base@11.0.9/java.lang.Object.wait(Native Method)
-        at java.base@11.0.9/java.lang.Object.wait(Object.java:462)
-        at app//okio.AsyncTimeout.awaitTimeout(AsyncTimeout.java:361)
-        at app//okio.AsyncTimeout$Watchdog.run(AsyncTimeout.java:312)
 
 
 
