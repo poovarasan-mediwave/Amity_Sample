@@ -508,6 +508,8 @@ public class Resource_Page_Step extends Base_Class {
 
 	@Then("user enter the tags")
 	public void user_enter_the_tags() throws Throwable {
+		jsScrollDownElement(si.getResources_Page().getAddTags());
+		wait(20);
 		String tags = FileReaderManager.getInstanceFRM().getInstanceCR().getTags();
 		enterText(si.getResources_Page().getAddTags(), tags);
 		sleep(2000);

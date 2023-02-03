@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-02-02T11:46:12.343Z",
+        "start_timestamp": "2023-02-02T12:31:32.282Z",
         "before": [
           {
             "result": {
-              "duration": 7630435000,
+              "duration": 8473317500,
               "status": "passed"
             },
             "match": {
@@ -16,13 +16,13 @@
           }
         ],
         "line": 3,
-        "name": "Test the Creator create resources insert image and approver approve, creator publish and unpublish",
+        "name": "Test the Creator create resources and Approver approve and then publish",
         "description": "",
-        "id": "image-insert-and-approver-approve;test-the-creator-create-resources-insert-image-and-approver-approve--creator-publish-and-unpublish",
+        "id": "approver-approve-and-creator-publish-and-unpublish-flow;test-the-creator-create-resources-and-approver-approve-and-then-publish",
         "after": [
           {
             "result": {
-              "duration": 894798800,
+              "duration": 766440100,
               "status": "passed"
             },
             "match": {
@@ -35,298 +35,300 @@
         "steps": [
           {
             "result": {
-              "duration": 377122800,
+              "duration": 291696900,
               "status": "passed"
             },
             "line": 4,
-            "name": "user enter the CUser \"\u003cCreatorUser\u003e\" and CPassword \"\u003cCreatorPassword\u003e\"",
+            "name": "user enter CCusername \"\u003cCreatorUser\u003e\" and CCpassword \"\u003cCreatorPassword\u003e\"",
             "match": {
               "arguments": [
                 {
                   "val": "\"\u003cCreatorUser\u003e\"",
-                  "offset": 21
+                  "offset": 22
                 },
                 {
                   "val": "\"\u003cCreatorPassword\u003e\"",
-                  "offset": 51
+                  "offset": 53
                 }
               ],
-              "location": "com.Step_Definition.Resource_Page_Step.user_enter_the_c_user_and_c_password(java.lang.String,java.lang.String)"
+              "location": "com.Step_Definition.Resource_Page_Step.user_enter_c_cusername_and_c_cpassword(java.lang.String,java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2093313600,
+              "duration": 2072373800,
               "status": "passed"
             },
             "line": 5,
-            "name": "user login creator credentials",
+            "name": "Click login for Content creator credentials",
             "match": {
-              "location": "com.Step_Definition.Resource_Page_Step.user_login_creator_credentials()"
+              "location": "com.Step_Definition.Resource_Page_Step.click_login_for_content_creator_credentials()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 10253169600,
+              "duration": 10190738500,
               "status": "passed"
             },
             "line": 6,
-            "name": "user should be on resource page and click the create new resource option",
+            "name": "user navigate resource page and click the create new resource option",
             "match": {
-              "location": "com.Step_Definition.Resource_Page_Step.user_should_be_on_resource_page_and_click_the_create_new_resource_option()"
+              "location": "com.Step_Definition.Resource_Page_Step.user_navigate_resource_page_and_click_the_create_new_resource_option()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 6267193200,
+              "duration": 7246174700,
               "status": "passed"
             },
             "line": 7,
-            "name": "user select the video in Resources Type",
+            "name": "user should  select the video in Resources Type",
             "match": {
-              "location": "com.Step_Definition.Resource_Page_Step.user_select_the_video_in_Resources_Type()"
+              "location": "com.Step_Definition.Resource_Page_Step.user_should_select_the_video_in_Resources_Type()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 4529148000,
+              "duration": 6387624900,
               "status": "passed"
             },
             "line": 8,
-            "name": "user should enter the resource title and user should select the Topic",
+            "name": "user should  enter the resource title and then user should select the topic",
             "match": {
-              "location": "com.Step_Definition.Resource_Page_Step.user_should_enter_the_resource_title_and_user_should_select_the_Topic()"
+              "location": "com.Step_Definition.Resource_Page_Step.user_should_enter_the_resource_title_and_then_user_should_select_the_topic()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 4211439200,
+              "duration": 4194710100,
               "status": "passed"
             },
             "line": 9,
-            "name": "user select ageGroup",
+            "name": "user select the ageGroup",
             "match": {
-              "location": "com.Step_Definition.Resource_Page_Step.user_select_ageGroup()"
+              "location": "com.Step_Definition.Resource_Page_Step.user_select_the_ageGroup()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 6352125600,
+              "duration": 7354281300,
               "status": "passed"
             },
             "line": 10,
-            "name": "user enter video caption in image \"\u003cCaptionImage\u003e\" and user click the video source button",
+            "name": "user enter the video caption \"\u003ccaption\u003e\" and then user click the video source",
             "match": {
               "arguments": [
                 {
-                  "val": "\"\u003cCaptionImage\u003e\"",
-                  "offset": 34
+                  "val": "\"\u003ccaption\u003e\"",
+                  "offset": 29
                 }
               ],
-              "location": "com.Step_Definition.Resource_Page_Step.user_enter_video_caption_in_image_and_user_click_the_video_source_button(java.lang.String)"
+              "location": "com.Step_Definition.Resource_Page_Step.user_enter_the_video_caption_and_then_user_click_the_video_source(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 12759056800,
+              "duration": 9598242900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user add the  video content link in creator page and then click the save button",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_add_the_video_content_link_in_creator_page_and_then_click_the_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10615627700,
               "status": "passed"
             },
             "line": 12,
-            "name": "user enter the tags",
+            "name": "user enter tags and then click the list of current tags in that click add tag button",
             "match": {
-              "location": "com.Step_Definition.Resource_Page_Step.user_enter_the_tags()"
+              "location": "com.Step_Definition.Resource_Page_Step.user_enter_tags_and_then_click_the_list_of_current_tags_in_that_click_add_tag_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1305051600,
+              "duration": 3214385100,
               "status": "passed"
             },
             "line": 14,
-            "name": "user should select the approvers and also click the submit for approval button",
+            "name": "user select the approvers list and then click the submit for approval button",
             "match": {
-              "location": "com.Step_Definition.Resource_Page_Step.user_should_select_the_approvers_and_also_click_the_submit_for_approval_button()"
+              "location": "com.Step_Definition.Resource_Page_Step.user_select_the_approvers_list_and_then_click_the_submit_for_approval_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 11471478900,
+              "duration": 7307637000,
               "status": "passed"
             },
             "line": 15,
-            "name": "user click the profile option and then user click the logout button in creator",
+            "name": "user take screenshot and then click profile option",
             "match": {
-              "location": "com.Step_Definition.Resource_Page_Step.user_click_the_profile_option_and_then_user_click_the_logout_button_in_creator()"
+              "location": "com.Step_Definition.Resource_Page_Step.user_take_screenshot_and_then_click_profile_option()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 2395600600,
+              "duration": 4091845600,
               "status": "passed"
             },
             "line": 16,
-            "name": "user should enter the \"\u003cApproverUser\u003e\" and \"\u003cApproverPass\u003e\" and user click the Login button in approver credentials",
+            "name": "user click the logout option in creator credentials",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.user_click_the_logout_option_in_creator_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 236270200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user should enter the ApproverEmailAddress \"\u003cApproverUser\u003e\" and ApproverPassword\"\u003cApproverPass\u003e\" in approvers credentials",
             "match": {
               "arguments": [
                 {
                   "val": "\"\u003cApproverUser\u003e\"",
-                  "offset": 22
+                  "offset": 43
                 },
                 {
                   "val": "\"\u003cApproverPass\u003e\"",
-                  "offset": 43
+                  "offset": 80
                 }
               ],
-              "location": "com.Step_Definition.Resource_Page_Step.user_should_enter_the_and_and_user_click_the_Login_button_in_approver_credentials(java.lang.String,java.lang.String)"
+              "location": "com.Step_Definition.Resource_Page_Step.user_should_enter_the_ApproverEmailAddress_and_ApproverPassword_in_approvers_credentials(java.lang.String,java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 8992547900,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "user should click the Mynotification option and user click the newly added resources",
-            "match": {
-              "location": "com.Step_Definition.Resource_Page_Step.user_should_click_the_Mynotification_option_and_user_click_the_newly_added_resources()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 7422601900,
+              "duration": 7177668400,
               "status": "passed"
             },
             "line": 18,
-            "name": "users click the approve button",
+            "name": "user click the Login button in approver credentials and user click the Mynotification",
             "match": {
-              "location": "com.Step_Definition.Resource_Page_Step.user_click_the_approve_button()"
+              "location": "com.Step_Definition.Resource_Page_Step.user_click_the_Login_button_in_approver_credentials_and_user_click_the_Mynotification()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 4181047400,
+              "duration": 8855356700,
               "status": "passed"
             },
             "line": 19,
-            "name": "users click the profile and users click logout button approver credential",
+            "name": "user click the newly added resources and then click the approve button",
             "match": {
-              "location": "com.Step_Definition.Resource_Page_Step.users_click_the_profile_and_users_click_logout_button_approver_credential()"
+              "location": "com.Step_Definition.Resource_Page_Step.user_click_the_newly_added_resources_and_then_click_the_approve_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 2288934200,
+              "duration": 4162444000,
               "status": "passed"
             },
             "line": 20,
-            "name": "user should enters the \"\u003cCreatorUser\u003e\" and  \"\u003cCreatorPassword\u003e\" and login the creator page",
+            "name": "users click the profile and users click logout button in approver credential",
+            "match": {
+              "location": "com.Step_Definition.Resource_Page_Step.users_click_the_profile_and_users_click_logout_button_in_approver_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2300737900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user should enters the creator credential \"\u003cCreatorUser\u003e\" and  \"\u003cCreatorPassword\u003e\" and login the creator page",
             "match": {
               "arguments": [
                 {
                   "val": "\"\u003cCreatorUser\u003e\"",
-                  "offset": 23
+                  "offset": 42
                 },
                 {
                   "val": "\"\u003cCreatorPassword\u003e\"",
-                  "offset": 44
+                  "offset": 63
                 }
               ],
-              "location": "com.Step_Definition.Resource_Page_Step.user_should_enters_the_and_and_login_the_creator_page(java.lang.String,java.lang.String)"
+              "location": "com.Step_Definition.Resource_Page_Step.user_should_enters_the_creator_credential_and_and_login_the_creator_page(java.lang.String,java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 8193933300,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "user click the my Notification by creater and user click the newly added resource",
-            "match": {
-              "location": "com.Step_Definition.Resource_Page_Step.user_click_the_my_Notification_by_creater_and_user_click_the_newly_added_resource()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 16752892100,
+              "duration": 10212071500,
               "status": "passed"
             },
             "line": 22,
-            "name": "user click the publish button and user logout the creator credentials",
+            "name": "user click the my Notification by creater in that user click the newly added resource",
             "match": {
-              "location": "com.Step_Definition.Resource_Page_Step.user_click_the_publish_button_and_user_logout_the_creator_credentials()"
+              "location": "com.Step_Definition.Resource_Page_Step.user_click_the_my_Notification_by_creater_in_that_user_click_the_newly_added_resource()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 5354040800,
+              "duration": 5366911500,
               "status": "passed"
             },
             "line": 23,
-            "name": "user enters the \"\u003cTrustUser\u003e\" and \"\u003cTrustPassword\u003e\" in trust admin and user click login button",
+            "name": "user click the publish button in creator credentials",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"\u003cTrustUser\u003e\"",
-                  "offset": 16
-                },
-                {
-                  "val": "\"\u003cTrustPassword\u003e\"",
-                  "offset": 34
-                }
-              ],
-              "location": "com.Step_Definition.Resource_Page_Step.user_enters_the_and_in_trust_admin_and_user_click_login_button(java.lang.String,java.lang.String)"
+              "location": "com.Step_Definition.Resource_Page_Step.user_click_the_publish_button_in_creator_credentials()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 7225855100,
+              "duration": 13329835600,
               "status": "passed"
             },
             "line": 24,
-            "name": "user should click the Mynotification option and user search the already create contentor name and click the newest one",
+            "name": "user cick newest one and also click unpublish",
             "match": {
-              "location": "com.Step_Definition.Resource_Page_Step.user_should_click_the_Mynotification_option_and_user_search_the_already_create_contentor_name_and_click_the_newest_one()"
+              "location": "com.Step_Definition.Resource_Page_Step.user_cick_newest_one_and_also_click_unpublish()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 3233338600,
+              "duration": 4158194000,
               "status": "passed"
             },
             "line": 25,
-            "name": "user should take screenshot for present creator",
+            "name": "user logout the creator credentials",
             "match": {
-              "location": "com.Step_Definition.Resource_Page_Step.user_should_take_screenshot_for_present_creator()"
+              "location": "com.Step_Definition.Resource_Page_Step.user_logout_the_creator_credentials()"
             },
             "keyword": "And "
           }
         ]
       }
     ],
-    "name": "Image insert and approver approve",
+    "name": "Approver approve and creator publish and unpublish flow",
     "description": "",
-    "id": "image-insert-and-approver-approve",
+    "id": "approver-approve-and-creator-publish-and-unpublish-flow",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/Feature_File/Imageinsert_approve.feature",
+    "uri": "file:src/test/resources/Feature_File/Publish_unpublish.feature",
     "tags": []
   }
 ]

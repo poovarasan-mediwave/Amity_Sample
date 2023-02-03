@@ -37,7 +37,7 @@ Test Automation Report
 </span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Feb 02, 2023 17:16:11</span></a>
+<a href="#"><span class="badge badge-primary">Feb 02, 2023 18:01:31</span></a>
 </li>
 </ul>
 </div>
@@ -63,13 +63,13 @@ Test Automation Report
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Feb 02, 2023 17:16:11</h3>
+<h3>Feb 02, 2023 18:01:31</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Feb 02, 2023 17:18:26</h3>
+<h3>Feb 02, 2023 18:03:49</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -140,7 +140,7 @@ Test Automation Report
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>20</b> steps passed</small></div>
+<div><small data-tooltip='100%'><b>21</b> steps passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> steps failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
@@ -159,7 +159,7 @@ Test Automation Report
 </div></div>
 <script>
 var timeline = {
-"Image insert and approver approve":134.228
+"Approver approve and creator publish and unpublish flow":137.645
 };
 </script>
 <div class="row">
@@ -205,7 +205,7 @@ warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 20,
+passGrandChild: 21,
 failGrandChild: 0,
 warningGrandChild: 0,
 skipGrandChild: 0,
@@ -235,9 +235,9 @@ eventsCount: 5,
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Image insert and approver approve</p>
+            <p class="name">Approver approve and creator publish and unpublish flow</p>
             <p class="text-sm">
-              <span>5:16:12 PM</span> / <span>00:02:14:228</span>
+              <span>6:01:32 PM</span> / <span>00:02:17:645</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -245,10 +245,10 @@ eventsCount: 5,
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Image insert and approver approve</h5>
-<span class='badge badge-success'>02.02.2023 5:16:12 PM</span>
-<span class='badge badge-danger'>02.02.2023 5:18:26 PM</span>
-<span class='badge badge-default'>00:02:14:228</span>
+<h5 class="test-status text-pass">Approver approve and creator publish and unpublish flow</h5>
+<span class='badge badge-success'>02.02.2023 6:01:32 PM</span>
+<span class='badge badge-danger'>02.02.2023 6:03:49 PM</span>
+<span class='badge badge-default'>00:02:17:645</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -260,108 +260,113 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Test the Creator create resources insert image and approver approve, creator publish and unpublish</div>
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Test the Creator create resources and Approver approve and then publish</div>
       </div>
     </div>
         <div class="collapse">
           <div class="card-body">
-              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_enter_the_c_user_and_c_password(java.lang.String,java.lang.String)">
-                <span>When user enter the CUser "<CreatorUser>" and CPassword "<CreatorPassword>"</span>
+              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_enter_c_cusername_and_c_cpassword(java.lang.String,java.lang.String)">
+                <span>When user enter CCusername "<CreatorUser>" and CCpassword "<CreatorPassword>"</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_login_creator_credentials()">
-                <span>And user login creator credentials</span>
+              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.click_login_for_content_creator_credentials()">
+                <span>And Click login for Content creator credentials</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_should_be_on_resource_page_and_click_the_create_new_resource_option()">
-                <span>Then user should be on resource page and click the create new resource option</span>
+              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_navigate_resource_page_and_click_the_create_new_resource_option()">
+                <span>Then user navigate resource page and click the create new resource option</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_select_the_video_in_Resources_Type()">
-                <span>And user select the video in Resources Type</span>
+              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_should_select_the_video_in_Resources_Type()">
+                <span>And user should  select the video in Resources Type</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_should_enter_the_resource_title_and_user_should_select_the_Topic()">
-                <span>And user should enter the resource title and user should select the Topic</span>
+              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_should_enter_the_resource_title_and_then_user_should_select_the_topic()">
+                <span>And user should  enter the resource title and then user should select the topic</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_select_ageGroup()">
-                <span>And user select ageGroup</span>
+              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_select_the_ageGroup()">
+                <span>And user select the ageGroup</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_enter_video_caption_in_image_and_user_click_the_video_source_button(java.lang.String)">
-                <span>And user enter video caption in image "<CaptionImage>" and user click the video source button</span>
+              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_enter_the_video_caption_and_then_user_click_the_video_source(java.lang.String)">
+                <span>And user enter the video caption "<caption>" and then user click the video source</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_enter_the_tags()">
-                <span>And user enter the tags</span>
+              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_add_the_video_content_link_in_creator_page_and_then_click_the_save_button()">
+                <span>And user add the  video content link in creator page and then click the save button</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_should_select_the_approvers_and_also_click_the_submit_for_approval_button()">
-                <span>And user should select the approvers and also click the submit for approval button</span>
+              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_enter_tags_and_then_click_the_list_of_current_tags_in_that_click_add_tag_button()">
+                <span>And user enter tags and then click the list of current tags in that click add tag button</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_profile_option_and_then_user_click_the_logout_button_in_creator()">
-                <span>And user click the profile option and then user click the logout button in creator</span>
+              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_select_the_approvers_list_and_then_click_the_submit_for_approval_button()">
+                <span>And user select the approvers list and then click the submit for approval button</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_should_enter_the_and_and_user_click_the_Login_button_in_approver_credentials(java.lang.String,java.lang.String)">
-                <span>And user should enter the "<ApproverUser>" and "<ApproverPass>" and user click the Login button in approver credentials</span>
+              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_take_screenshot_and_then_click_profile_option()">
+                <span>And user take screenshot and then click profile option</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_should_click_the_Mynotification_option_and_user_click_the_newly_added_resources()">
-                <span>And user should click the Mynotification option and user click the newly added resources</span>
+              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_logout_option_in_creator_credentials()">
+                <span>And user click the logout option in creator credentials</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_approve_button()">
-                <span>And users click the approve button</span>
+              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_should_enter_the_ApproverEmailAddress_and_ApproverPassword_in_approvers_credentials(java.lang.String,java.lang.String)">
+                <span>And user should enter the ApproverEmailAddress "<ApproverUser>" and ApproverPassword"<ApproverPass>" in approvers credentials</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.users_click_the_profile_and_users_click_logout_button_approver_credential()">
-                <span>And users click the profile and users click logout button approver credential</span>
+              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_Login_button_in_approver_credentials_and_user_click_the_Mynotification()">
+                <span>And user click the Login button in approver credentials and user click the Mynotification</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_should_enters_the_and_and_login_the_creator_page(java.lang.String,java.lang.String)">
-                <span>And user should enters the "<CreatorUser>" and  "<CreatorPassword>" and login the creator page</span>
+              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_newly_added_resources_and_then_click_the_approve_button()">
+                <span>And user click the newly added resources and then click the approve button</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_my_Notification_by_creater_and_user_click_the_newly_added_resource()">
-                <span>And user click the my Notification by creater and user click the newly added resource</span>
+              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.users_click_the_profile_and_users_click_logout_button_in_approver_credentials()">
+                <span>And users click the profile and users click logout button in approver credential</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_publish_button_and_user_logout_the_creator_credentials()">
-                <span>And user click the publish button and user logout the creator credentials</span>
+              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_should_enters_the_creator_credential_and_and_login_the_creator_page(java.lang.String,java.lang.String)">
+                <span>And user should enters the creator credential "<CreatorUser>" and  "<CreatorPassword>" and login the creator page</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_enters_the_and_in_trust_admin_and_user_click_login_button(java.lang.String,java.lang.String)">
-                <span>And user enters the "<TrustUser>" and "<TrustPassword>" in trust admin and user click login button</span>
+              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_my_Notification_by_creater_in_that_user_click_the_newly_added_resource()">
+                <span>And user click the my Notification by creater in that user click the newly added resource</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_should_click_the_Mynotification_option_and_user_search_the_already_create_contentor_name_and_click_the_newest_one()">
-                <span>And user should click the Mynotification option and user search the already create contentor name and click the newest one</span>
+              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_click_the_publish_button_in_creator_credentials()">
+                <span>And user click the publish button in creator credentials</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_should_take_screenshot_for_present_creator()">
-                <span>And user should take screenshot for present creator</span>
+              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_cick_newest_one_and_also_click_unpublish()">
+                <span>And user cick newest one and also click unpublish</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Step_Definition.Resource_Page_Step.user_logout_the_creator_credentials()">
+                <span>And user logout the creator credentials</span>
       <div>
       </div>
               </div>
