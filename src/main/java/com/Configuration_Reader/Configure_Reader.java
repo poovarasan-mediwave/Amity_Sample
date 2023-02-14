@@ -10,7 +10,7 @@ public class Configure_Reader {
 
 	public Configure_Reader() throws IOException {
 		File f = new File(
-				"C:\\Users\\Mediwave Digital\\eclipse-workspace\\Amity_sample\\src\\main\\java\\com\\Configuration_Properties\\Config.properties");
+				"C:\\Users\\Mediwave Digital\\eclipse-workspace\\Amity_samples\\src\\main\\java\\com\\Configuration_Properties\\Config.properties");
 		FileInputStream fi = new FileInputStream(f);
 
 		proper = new Properties();
